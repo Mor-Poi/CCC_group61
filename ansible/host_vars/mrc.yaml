@@ -1,6 +1,6 @@
 # Common vars
 availability_zone: melbourne-qh2-uom 
-instance_flavor: uom. general. 1c4g
+instance_flavor: uomgeneral.1c4g
 instance_image: bbaf16f8-2484-48d7-b455-42209cc4b8d2
 instance_key_name: yuanbo
 instance_network: gh2-uom-internal
