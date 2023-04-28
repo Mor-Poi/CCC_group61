@@ -1,3 +1,4 @@
+---
 # Show all available Openstack images (just for demo, you don't need this task to create instance)
 - name: Retrieve all available Openstack images 
   openstack.cloud.image_info:
@@ -9,5 +10,5 @@
   when: item.name is defined
 - name: Show images 
   ansible.builtin.debug:
-    msg: "Image name:  {{item.name }}; Image id: {{ item.id}}" 
-  loop: "{{ image_facts }}"
+    msg: "Image name:  {{item.name}}; Image id: {{item.id}}" 
+  loop: "{{image_facts}}"

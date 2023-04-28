@@ -1,3 +1,4 @@
+---
 # Create an instance on NeCTAR
 -name: Create an instance 
   openstack.cloud.server:
@@ -7,7 +8,7 @@
   image: "{{instance_image}}" 
   key_name: "{{instance_key_name}}" 
   name: "{{item.name}}" 
-  network: "{{instance network}}"
+  network: "{{instance_network}}"
   security_groups: "{{sg_names}}" 
   state: present 
   timeout: 600
