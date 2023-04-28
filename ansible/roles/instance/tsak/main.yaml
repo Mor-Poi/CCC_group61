@@ -1,19 +1,19 @@
 # Create an instance on NeCTAR
 -name: Create an instance 
-  openstack. cloud. server:
+  openstack.cloud.server:
     auto_ip: false
-  availability_zone: "{{ availability_zone }}" 
-  flavor: "{{ instance_flavor }}" 
-  image: "{{ instance_image }}" 
-  key_name: "{{ instance_key_name 33" 
-  name: "{{ item.name }]" 
-  network: "{{instance network }}"
-  security_groups: "{{ sg_names }}" 
+  availability_zone: "{{availability_zone}}" 
+  flavor: "{{instance_flavor}}" 
+  image: "{{instance_image}}" 
+  key_name: "{{instance_key_name}}" 
+  name: "{{item.name}}" 
+  network: "{{instance network}}"
+  security_groups: "{{sg_names}}" 
   state: present 
   timeout: 600
-  #volumes: "{{ item. volumes }}"
+  #volumes: "{{item.volumes}}"
    wait: yes
-loop: "{{ instances }}" 
+loop: "{{instances}}" 
 register: os_instance
 
 - name: Print return information from the previous task 
@@ -21,15 +21,15 @@ register: os_instance
     var: os_instance
 
 - ansible.builtin.debug:
-    msg: "Instance {{ item.server.name }} has been created. IP address is {{ item['server']['addresses '][instance_network][0]['addr'] }}"
-    loop: "{{os_instance.results }}" 
+    msg: "Instance {{item.server.name}} has been created.IP address is {{item['server']['addresses'][instance_network][0]['addr']}}"
+    loop: "{{os_instance.results}}" 
     when: item.server is defined
 
 - name: Wait for connection 
   ansible.builtin.wait_for:
-    host: "{{ item ['server'] ['addresses '][instance_network] [0] ['addr'] 33" 
+    host: "{{item['server']['addresses'][instance_network][0]['addr']}}" 
     port: 22
     timeout: 600
     search_regex: OpenSSH
-  loop: "{{ os_instance. results }}" 
+  loop: "{{os_instance.results}}" 
   when: item.server is defined
