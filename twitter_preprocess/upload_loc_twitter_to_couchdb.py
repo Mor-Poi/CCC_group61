@@ -12,11 +12,18 @@ def load_lga(lga_file):
         lgas_data = json.load(f)
         return lgas_data
 
-def get_lga(lgas_data, locations):
+def get_place(lgas_data, locations):
     for loc in locations:
         if loc in lgas_data:
-            lga = [lgas_data[loc]['lga_code'],loc]
-            return lga
+            if 'lga_code' in lgas_data[loc]:
+                place = {'lga_code': lgas_data[loc]['lga_code'], 
+                         'lga_name': loc,
+                         'ste_code': lgas_data[loc]['ste_code'], 
+                         'ste_name': lgas_data[loc]['ste_name'] }
+            else:
+                place = {'ste_code': lgas_data[loc]['ste_code'], 
+                         'ste_name': loc }
+            return place
         else:
             return None
 
@@ -52,13 +59,13 @@ def process_twitter_row(row_text, lgas_data):
             "created_at": r'"created_at":"(.*?)"',
             "lang": r'"lang":"(.*?)"',
             "tags": r'"tags":"(.*?)"',
-            "tokens": r'"tokens":"(.*?)"',
+            "text": r'"text":"(.*?)"',
             "retweet_count": r'"retweet_count":(\d+)',
             "reply_count": r'"reply_count":(\d+)',
             "like_count": r'"like_count":(\d+)',
             "quote_count": r'"quote_count":(\d+)',
             "sentiment": r'"sentiment":(-?\d+(\.\d+)?)',
-            "places": r'"full_name":"(.*?)"',
+            "place": r'"full_name":"(.*?)"',
             "geo_bbox": r'"bbox":\[(.*?)\]'
         }
 
@@ -69,12 +76,14 @@ def process_twitter_row(row_text, lgas_data):
             if match:
                 value = match.group(1)
                 # Data format in dict
-                if key == "places":
-                    value = get_lga(lgas_data, value.split(", "))
+                if key == "place":
+                    value = get_place(lgas_data, value.split(", "))
                     if value == None:
                         return None
                 elif key in ["retweet_count", "reply_count", "like_count", "quote_count"]:
                     value = int(value)
+                elif key == "text":
+                    value = value.lower()
                 elif key == "geo_bbox":
                     value = list(map(float, match.group(1).split(",")))
                 elif key == "sentiment":
@@ -90,6 +99,8 @@ def connect_to_db(couch_server, couch_user, couch_pwd, db_name):
     response = requests.put(db_url)
     if response.status_code == 201:
         print(f"Database '{db_name}' created successfully.")
+    # elif response.status_code == 412:
+    #     print(f"Database '{db_name}' already exists.")
     return db_url
     
 def upload_to_db(db_url, documents):
@@ -110,7 +121,7 @@ def process(file_path, db, lgas_data, start, partition_start_indices, partition_
         end = ']}\n'
 
     processed_twitters = []
-    bunch_size = 10000
+    bunch_size = 8000
     with open(file_path, "r") as f:
         f.seek(start)
         for line in f:
@@ -137,12 +148,10 @@ def parallel(twitter_file, db, lgas_data):
 
     partition_start_indices, partition_end_ids = split_json_file(file_path=twitter_file, num_partitions=size)
 
-    # If the process is the root (rank 0), it scatters the chunks, perform processing and gathers results
     if rank == 0:
         start = comm.scatter(partition_start_indices, root=0)
         process(twitter_file, db, lgas_data, start, partition_start_indices, partition_end_ids)
 
-    # For all other processes, they receive the start position and perform the processing
     else:
         start = comm.scatter(None, root=0)
         process(twitter_file, db, lgas_data, start, partition_start_indices, partition_end_ids)
@@ -179,5 +188,5 @@ if __name__ == "__main__":
     print(total_time_min, "min")
 
 ''' run: 
-mpiexec -n 4 python3 upload_twitter_to_couchdb.py -twitter "twitter-huge.json" -lga "au-lga.json" -server "172.26.131.86:5984" -user "admin" -pwd "pass" -db "loc_twitter"
+mpiexec -n 8 python3 upload_loc_twitter_to_couchdb.py -twitter "twitter-huge.json" -lga "au-lga.json" -server "172.26.132.163:5984" -user "admin" -pwd "pass" -db "loc_twitter_huge"
 '''

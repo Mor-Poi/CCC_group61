@@ -1,0 +1,2764 @@
+{
+    "New South Wales": {
+        "ste_code": 1
+    },
+    "Albury": {
+        "lga_code": 10050,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Armidale Regional": {
+        "lga_code": 10180,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Ballina": {
+        "lga_code": 10250,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Balranald": {
+        "lga_code": 10300,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Bathurst Regional": {
+        "lga_code": 10470,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Bayside (NSW)": {
+        "lga_code": 10500,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Bega Valley": {
+        "lga_code": 10550,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Bellingen": {
+        "lga_code": 10600,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Berrigan": {
+        "lga_code": 10650,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Blacktown": {
+        "lga_code": 10750,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Bland": {
+        "lga_code": 10800,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Blayney": {
+        "lga_code": 10850,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Blue Mountains": {
+        "lga_code": 10900,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Bogan": {
+        "lga_code": 10950,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Bourke": {
+        "lga_code": 11150,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Brewarrina": {
+        "lga_code": 11200,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Broken Hill": {
+        "lga_code": 11250,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Burwood": {
+        "lga_code": 11300,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Byron": {
+        "lga_code": 11350,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Cabonne": {
+        "lga_code": 11400,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Camden": {
+        "lga_code": 11450,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Campbelltown (NSW)": {
+        "lga_code": 11500,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Canada Bay": {
+        "lga_code": 11520,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Canterbury-Bankstown": {
+        "lga_code": 11570,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Carrathool": {
+        "lga_code": 11600,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Central Coast (NSW)": {
+        "lga_code": 11650,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Central Darling": {
+        "lga_code": 11700,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Cessnock": {
+        "lga_code": 11720,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Clarence Valley": {
+        "lga_code": 11730,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Cobar": {
+        "lga_code": 11750,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Coffs Harbour": {
+        "lga_code": 11800,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Coolamon": {
+        "lga_code": 12000,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Coonamble": {
+        "lga_code": 12150,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Cootamundra-Gundagai Regional": {
+        "lga_code": 12160,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Cowra": {
+        "lga_code": 12350,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Cumberland": {
+        "lga_code": 12380,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Dubbo Regional": {
+        "lga_code": 12390,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Dungog": {
+        "lga_code": 12700,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Edward River": {
+        "lga_code": 12730,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Eurobodalla": {
+        "lga_code": 12750,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Fairfield": {
+        "lga_code": 12850,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Federation": {
+        "lga_code": 12870,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Forbes": {
+        "lga_code": 12900,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Georges River": {
+        "lga_code": 12930,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Gilgandra": {
+        "lga_code": 12950,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Glen Innes Severn": {
+        "lga_code": 13010,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Goulburn Mulwaree": {
+        "lga_code": 13310,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Greater Hume Shire": {
+        "lga_code": 13340,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Griffith": {
+        "lga_code": 13450,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Gunnedah": {
+        "lga_code": 13550,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Gwydir": {
+        "lga_code": 13660,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Hawkesbury": {
+        "lga_code": 13800,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Hay": {
+        "lga_code": 13850,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Hilltops": {
+        "lga_code": 13910,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Hornsby": {
+        "lga_code": 14000,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Hunters Hill": {
+        "lga_code": 14100,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Inner West": {
+        "lga_code": 14170,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Inverell": {
+        "lga_code": 14220,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Junee": {
+        "lga_code": 14300,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Kempsey": {
+        "lga_code": 14350,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Kiama": {
+        "lga_code": 14400,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Ku-ring-gai": {
+        "lga_code": 14500,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Kyogle": {
+        "lga_code": 14550,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Lachlan": {
+        "lga_code": 14600,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Lake Macquarie": {
+        "lga_code": 14650,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Lane Cove": {
+        "lga_code": 14700,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Leeton": {
+        "lga_code": 14750,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Lismore": {
+        "lga_code": 14850,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Lithgow": {
+        "lga_code": 14870,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Liverpool": {
+        "lga_code": 14900,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Liverpool Plains": {
+        "lga_code": 14920,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Lockhart": {
+        "lga_code": 14950,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Maitland": {
+        "lga_code": 15050,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Mid-Coast": {
+        "lga_code": 15240,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Mid-Western Regional": {
+        "lga_code": 15270,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Moree Plains": {
+        "lga_code": 15300,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Mosman": {
+        "lga_code": 15350,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Murray River": {
+        "lga_code": 15520,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Murrumbidgee": {
+        "lga_code": 15560,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Muswellbrook": {
+        "lga_code": 15650,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Nambucca Valley": {
+        "lga_code": 15700,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Narrabri": {
+        "lga_code": 15750,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Narrandera": {
+        "lga_code": 15800,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Narromine": {
+        "lga_code": 15850,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Newcastle": {
+        "lga_code": 15900,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "North Sydney": {
+        "lga_code": 15950,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Northern Beaches": {
+        "lga_code": 15990,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Oberon": {
+        "lga_code": 16100,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Orange": {
+        "lga_code": 16150,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Parkes": {
+        "lga_code": 16200,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Parramatta": {
+        "lga_code": 16260,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Penrith": {
+        "lga_code": 16350,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Port Macquarie-Hastings": {
+        "lga_code": 16380,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Port Stephens": {
+        "lga_code": 16400,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Queanbeyan-Palerang Regional": {
+        "lga_code": 16490,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Randwick": {
+        "lga_code": 16550,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Richmond Valley": {
+        "lga_code": 16610,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Ryde": {
+        "lga_code": 16700,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Shellharbour": {
+        "lga_code": 16900,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Shoalhaven": {
+        "lga_code": 16950,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Singleton": {
+        "lga_code": 17000,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Snowy Monaro Regional": {
+        "lga_code": 17040,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Snowy Valleys": {
+        "lga_code": 17080,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Strathfield": {
+        "lga_code": 17100,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Sutherland Shire": {
+        "lga_code": 17150,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Sydney": {
+        "lga_code": 17200,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Tamworth Regional": {
+        "lga_code": 17310,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Temora": {
+        "lga_code": 17350,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Tenterfield": {
+        "lga_code": 17400,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "The Hills Shire": {
+        "lga_code": 17420,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Tweed": {
+        "lga_code": 17550,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Upper Hunter Shire": {
+        "lga_code": 17620,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Upper Lachlan Shire": {
+        "lga_code": 17640,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Uralla": {
+        "lga_code": 17650,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Wagga Wagga": {
+        "lga_code": 17750,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Walcha": {
+        "lga_code": 17850,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Walgett": {
+        "lga_code": 17900,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Warren": {
+        "lga_code": 17950,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Warrumbungle Shire": {
+        "lga_code": 18020,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Waverley": {
+        "lga_code": 18050,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Weddin": {
+        "lga_code": 18100,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Wentworth": {
+        "lga_code": 18200,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Willoughby": {
+        "lga_code": 18250,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Wingecarribee": {
+        "lga_code": 18350,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Wollondilly": {
+        "lga_code": 18400,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Wollongong": {
+        "lga_code": 18450,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Woollahra": {
+        "lga_code": 18500,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Yass Valley": {
+        "lga_code": 18710,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Unincorporated NSW": {
+        "lga_code": 19399,
+        "ste_code": 1,
+        "ste_name": "New South Wales"
+    },
+    "Victoria": {
+        "ste_code": 2
+    },
+    "Alpine": {
+        "lga_code": 20110,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Ararat": {
+        "lga_code": 20260,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Ballarat": {
+        "lga_code": 20570,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Banyule": {
+        "lga_code": 20660,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Bass Coast": {
+        "lga_code": 20740,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Baw Baw": {
+        "lga_code": 20830,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Bayside (Vic.)": {
+        "lga_code": 20910,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Benalla": {
+        "lga_code": 21010,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Boroondara": {
+        "lga_code": 21110,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Brimbank": {
+        "lga_code": 21180,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Buloke": {
+        "lga_code": 21270,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Campaspe": {
+        "lga_code": 21370,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Cardinia": {
+        "lga_code": 21450,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Casey": {
+        "lga_code": 21610,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Central Goldfields": {
+        "lga_code": 21670,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Colac Otway": {
+        "lga_code": 21750,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Corangamite": {
+        "lga_code": 21830,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Darebin": {
+        "lga_code": 21890,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "East Gippsland": {
+        "lga_code": 22110,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Frankston": {
+        "lga_code": 22170,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Gannawarra": {
+        "lga_code": 22250,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Glen Eira": {
+        "lga_code": 22310,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Glenelg": {
+        "lga_code": 22410,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Golden Plains": {
+        "lga_code": 22490,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Greater Bendigo": {
+        "lga_code": 22620,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Greater Dandenong": {
+        "lga_code": 22670,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Greater Geelong": {
+        "lga_code": 22750,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Greater Shepparton": {
+        "lga_code": 22830,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Hepburn": {
+        "lga_code": 22910,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Hindmarsh": {
+        "lga_code": 22980,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Hobsons Bay": {
+        "lga_code": 23110,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Horsham": {
+        "lga_code": 23190,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Hume": {
+        "lga_code": 23270,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Indigo": {
+        "lga_code": 23350,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Kingston (Vic.)": {
+        "lga_code": 23430,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Knox": {
+        "lga_code": 23670,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Latrobe (Vic.)": {
+        "lga_code": 23810,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Loddon": {
+        "lga_code": 23940,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Macedon Ranges": {
+        "lga_code": 24130,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Manningham": {
+        "lga_code": 24210,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Mansfield": {
+        "lga_code": 24250,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Maribyrnong": {
+        "lga_code": 24330,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Maroondah": {
+        "lga_code": 24410,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Melbourne": {
+        "lga_code": 24600,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Melton": {
+        "lga_code": 24650,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Mildura": {
+        "lga_code": 24780,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Mitchell": {
+        "lga_code": 24850,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Moira": {
+        "lga_code": 24900,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Monash": {
+        "lga_code": 24970,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Moonee Valley": {
+        "lga_code": 25060,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Moorabool": {
+        "lga_code": 25150,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Moreland": {
+        "lga_code": 25250,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Mornington Peninsula": {
+        "lga_code": 25340,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Mount Alexander": {
+        "lga_code": 25430,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Moyne": {
+        "lga_code": 25490,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Murrindindi": {
+        "lga_code": 25620,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Nillumbik": {
+        "lga_code": 25710,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Northern Grampians": {
+        "lga_code": 25810,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Port Phillip": {
+        "lga_code": 25900,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Pyrenees": {
+        "lga_code": 25990,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Queenscliffe": {
+        "lga_code": 26080,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "South Gippsland": {
+        "lga_code": 26170,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Southern Grampians": {
+        "lga_code": 26260,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Stonnington": {
+        "lga_code": 26350,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Strathbogie": {
+        "lga_code": 26430,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Surf Coast": {
+        "lga_code": 26490,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Swan Hill": {
+        "lga_code": 26610,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Towong": {
+        "lga_code": 26670,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Wangaratta": {
+        "lga_code": 26700,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Warrnambool": {
+        "lga_code": 26730,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Wellington": {
+        "lga_code": 26810,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "West Wimmera": {
+        "lga_code": 26890,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Whitehorse": {
+        "lga_code": 26980,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Whittlesea": {
+        "lga_code": 27070,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Wodonga": {
+        "lga_code": 27170,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Wyndham": {
+        "lga_code": 27260,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Yarra": {
+        "lga_code": 27350,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Yarra Ranges": {
+        "lga_code": 27450,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Yarriambiack": {
+        "lga_code": 27630,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Unincorporated Vic": {
+        "lga_code": 29399,
+        "ste_code": 2,
+        "ste_name": "Victoria"
+    },
+    "Queensland": {
+        "ste_code": 3
+    },
+    "Aurukun": {
+        "lga_code": 30250,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Balonne": {
+        "lga_code": 30300,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Banana": {
+        "lga_code": 30370,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Barcaldine": {
+        "lga_code": 30410,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Barcoo": {
+        "lga_code": 30450,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Blackall Tambo": {
+        "lga_code": 30760,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Boulia": {
+        "lga_code": 30900,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Brisbane": {
+        "lga_code": 31000,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Bulloo": {
+        "lga_code": 31750,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Bundaberg": {
+        "lga_code": 31820,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Burdekin": {
+        "lga_code": 31900,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Burke": {
+        "lga_code": 31950,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Cairns": {
+        "lga_code": 32080,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Carpentaria": {
+        "lga_code": 32250,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Cassowary Coast": {
+        "lga_code": 32260,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Central Highlands (Qld)": {
+        "lga_code": 32270,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Charters Towers": {
+        "lga_code": 32310,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Cherbourg": {
+        "lga_code": 32330,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Cloncurry": {
+        "lga_code": 32450,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Cook": {
+        "lga_code": 32500,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Croydon": {
+        "lga_code": 32600,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Diamantina": {
+        "lga_code": 32750,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Doomadgee": {
+        "lga_code": 32770,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Douglas": {
+        "lga_code": 32810,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Etheridge": {
+        "lga_code": 33100,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Flinders (Qld)": {
+        "lga_code": 33200,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Fraser Coast": {
+        "lga_code": 33220,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Gladstone": {
+        "lga_code": 33360,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Gold Coast": {
+        "lga_code": 33430,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Goondiwindi": {
+        "lga_code": 33610,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Gympie": {
+        "lga_code": 33620,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Hinchinbrook": {
+        "lga_code": 33800,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Hope Vale": {
+        "lga_code": 33830,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Ipswich": {
+        "lga_code": 33960,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Isaac": {
+        "lga_code": 33980,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Kowanyama": {
+        "lga_code": 34420,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Livingstone": {
+        "lga_code": 34530,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Lockhart River": {
+        "lga_code": 34570,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Lockyer Valley": {
+        "lga_code": 34580,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Logan": {
+        "lga_code": 34590,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Longreach": {
+        "lga_code": 34710,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Mackay": {
+        "lga_code": 34770,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "McKinlay": {
+        "lga_code": 34800,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Mapoon": {
+        "lga_code": 34830,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Maranoa": {
+        "lga_code": 34860,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Mareeba": {
+        "lga_code": 34880,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Moreton Bay": {
+        "lga_code": 35010,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Mornington": {
+        "lga_code": 35250,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Mount Isa": {
+        "lga_code": 35300,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Murweh": {
+        "lga_code": 35600,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Napranum": {
+        "lga_code": 35670,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Noosa": {
+        "lga_code": 35740,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "North Burnett": {
+        "lga_code": 35760,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Northern Peninsula Area": {
+        "lga_code": 35780,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Palm Island": {
+        "lga_code": 35790,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Paroo": {
+        "lga_code": 35800,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Pormpuraaw": {
+        "lga_code": 36070,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Quilpie": {
+        "lga_code": 36150,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Redland": {
+        "lga_code": 36250,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Richmond": {
+        "lga_code": 36300,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Rockhampton": {
+        "lga_code": 36370,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Scenic Rim": {
+        "lga_code": 36510,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Somerset": {
+        "lga_code": 36580,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "South Burnett": {
+        "lga_code": 36630,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Southern Downs": {
+        "lga_code": 36660,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Sunshine Coast": {
+        "lga_code": 36720,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Tablelands": {
+        "lga_code": 36820,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Toowoomba": {
+        "lga_code": 36910,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Torres": {
+        "lga_code": 36950,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Torres Strait Island": {
+        "lga_code": 36960,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Townsville": {
+        "lga_code": 37010,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Weipa": {
+        "lga_code": 37300,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Western Downs": {
+        "lga_code": 37310,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Whitsunday": {
+        "lga_code": 37340,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Winton": {
+        "lga_code": 37400,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Woorabinda": {
+        "lga_code": 37550,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Wujal Wujal": {
+        "lga_code": 37570,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "Yarrabah": {
+        "lga_code": 37600,
+        "ste_code": 3,
+        "ste_name": "Queensland"
+    },
+    "South Australia": {
+        "ste_code": 4
+    },
+    "Adelaide": {
+        "lga_code": 40070,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Adelaide Hills": {
+        "lga_code": 40120,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Adelaide Plains": {
+        "lga_code": 40150,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Alexandrina": {
+        "lga_code": 40220,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Anangu Pitjantjatjara Yunkunytjatjara": {
+        "lga_code": 40250,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Barossa": {
+        "lga_code": 40310,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Barunga West": {
+        "lga_code": 40430,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Berri Barmera": {
+        "lga_code": 40520,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Burnside": {
+        "lga_code": 40700,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Campbelltown (SA)": {
+        "lga_code": 40910,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Ceduna": {
+        "lga_code": 41010,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Charles Sturt": {
+        "lga_code": 41060,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Clare and Gilbert Valleys": {
+        "lga_code": 41140,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Cleve": {
+        "lga_code": 41190,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Coober Pedy": {
+        "lga_code": 41330,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Copper Coast": {
+        "lga_code": 41560,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Elliston": {
+        "lga_code": 41750,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Flinders Ranges": {
+        "lga_code": 41830,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Franklin Harbour": {
+        "lga_code": 41960,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Gawler": {
+        "lga_code": 42030,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Goyder": {
+        "lga_code": 42110,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Grant": {
+        "lga_code": 42250,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Holdfast Bay": {
+        "lga_code": 42600,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Kangaroo Island": {
+        "lga_code": 42750,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Karoonda East Murray": {
+        "lga_code": 43080,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Kimba": {
+        "lga_code": 43220,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Kingston (SA)": {
+        "lga_code": 43360,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Light": {
+        "lga_code": 43650,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Lower Eyre Peninsula": {
+        "lga_code": 43710,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Loxton Waikerie": {
+        "lga_code": 43790,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Maralinga Tjarutja": {
+        "lga_code": 44000,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Marion": {
+        "lga_code": 44060,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Mid Murray": {
+        "lga_code": 44210,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Mitcham": {
+        "lga_code": 44340,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Mount Barker": {
+        "lga_code": 44550,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Mount Gambier": {
+        "lga_code": 44620,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Mount Remarkable": {
+        "lga_code": 44830,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Murray Bridge": {
+        "lga_code": 45040,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Naracoorte Lucindale": {
+        "lga_code": 45090,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Northern Areas": {
+        "lga_code": 45120,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Norwood Payneham and St Peters": {
+        "lga_code": 45290,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Onkaparinga": {
+        "lga_code": 45340,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Orroroo Carrieton": {
+        "lga_code": 45400,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Peterborough": {
+        "lga_code": 45540,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Playford": {
+        "lga_code": 45680,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Port Adelaide Enfield": {
+        "lga_code": 45890,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Port Augusta": {
+        "lga_code": 46090,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Port Lincoln": {
+        "lga_code": 46300,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Port Pirie": {
+        "lga_code": 46450,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Prospect": {
+        "lga_code": 46510,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Renmark Paringa": {
+        "lga_code": 46670,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Robe": {
+        "lga_code": 46860,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Roxby Downs": {
+        "lga_code": 46970,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Salisbury": {
+        "lga_code": 47140,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Southern Mallee": {
+        "lga_code": 47290,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Streaky Bay": {
+        "lga_code": 47490,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Tatiara": {
+        "lga_code": 47630,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Tea Tree Gully": {
+        "lga_code": 47700,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Coorong": {
+        "lga_code": 47800,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Tumby Bay": {
+        "lga_code": 47910,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Unley": {
+        "lga_code": 47980,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Victor Harbor": {
+        "lga_code": 48050,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Wakefield": {
+        "lga_code": 48130,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Walkerville": {
+        "lga_code": 48260,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Wattle Range": {
+        "lga_code": 48340,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "West Torrens": {
+        "lga_code": 48410,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Whyalla": {
+        "lga_code": 48540,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Wudinna": {
+        "lga_code": 48640,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Yankalilla": {
+        "lga_code": 48750,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Yorke Peninsula": {
+        "lga_code": 48830,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Unincorporated SA": {
+        "lga_code": 49399,
+        "ste_code": 4,
+        "ste_name": "South Australia"
+    },
+    "Western Australia": {
+        "ste_code": 5
+    },
+    "Albany": {
+        "lga_code": 50080,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Armadale": {
+        "lga_code": 50210,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Ashburton": {
+        "lga_code": 50250,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Augusta Margaret River": {
+        "lga_code": 50280,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Bassendean": {
+        "lga_code": 50350,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Bayswater": {
+        "lga_code": 50420,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Belmont": {
+        "lga_code": 50490,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Beverley": {
+        "lga_code": 50560,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Boddington": {
+        "lga_code": 50630,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Boyup Brook": {
+        "lga_code": 50770,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Bridgetown-Greenbushes": {
+        "lga_code": 50840,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Brookton": {
+        "lga_code": 50910,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Broome": {
+        "lga_code": 50980,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Broomehill-Tambellup": {
+        "lga_code": 51080,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Bruce Rock": {
+        "lga_code": 51120,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Bunbury": {
+        "lga_code": 51190,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Busselton": {
+        "lga_code": 51260,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Cambridge": {
+        "lga_code": 51310,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Canning": {
+        "lga_code": 51330,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Capel": {
+        "lga_code": 51400,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Carnamah": {
+        "lga_code": 51470,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Carnarvon": {
+        "lga_code": 51540,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Chapman Valley": {
+        "lga_code": 51610,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Chittering": {
+        "lga_code": 51680,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Christmas Island": {
+        "lga_code": 51710,
+        "ste_code": 9,
+        "ste_name": "Other Territories"
+    },
+    "Claremont": {
+        "lga_code": 51750,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Cockburn": {
+        "lga_code": 51820,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Cocos Islands": {
+        "lga_code": 51860,
+        "ste_code": 9,
+        "ste_name": "Other Territories"
+    },
+    "Collie": {
+        "lga_code": 51890,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Coolgardie": {
+        "lga_code": 51960,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Coorow": {
+        "lga_code": 52030,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Corrigin": {
+        "lga_code": 52100,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Cottesloe": {
+        "lga_code": 52170,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Cranbrook": {
+        "lga_code": 52240,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Cuballing": {
+        "lga_code": 52310,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Cue": {
+        "lga_code": 52380,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Cunderdin": {
+        "lga_code": 52450,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Dalwallinu": {
+        "lga_code": 52520,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Dandaragan": {
+        "lga_code": 52590,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Dardanup": {
+        "lga_code": 52660,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Denmark": {
+        "lga_code": 52730,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Derby-West Kimberley": {
+        "lga_code": 52800,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Donnybrook-Balingup": {
+        "lga_code": 52870,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Dowerin": {
+        "lga_code": 52940,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Dumbleyung": {
+        "lga_code": 53010,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Dundas": {
+        "lga_code": 53080,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "East Fremantle": {
+        "lga_code": 53150,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "East Pilbara": {
+        "lga_code": 53220,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Esperance": {
+        "lga_code": 53290,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Exmouth": {
+        "lga_code": 53360,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Fremantle": {
+        "lga_code": 53430,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Gingin": {
+        "lga_code": 53570,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Gnowangerup": {
+        "lga_code": 53640,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Goomalling": {
+        "lga_code": 53710,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Gosnells": {
+        "lga_code": 53780,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Greater Geraldton": {
+        "lga_code": 53800,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Halls Creek": {
+        "lga_code": 53920,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Harvey": {
+        "lga_code": 53990,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Irwin": {
+        "lga_code": 54060,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Jerramungup": {
+        "lga_code": 54130,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Joondalup": {
+        "lga_code": 54170,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Kalamunda": {
+        "lga_code": 54200,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Kalgoorlie-Boulder": {
+        "lga_code": 54280,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Karratha": {
+        "lga_code": 54310,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Katanning": {
+        "lga_code": 54340,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Kellerberrin": {
+        "lga_code": 54410,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Kent": {
+        "lga_code": 54480,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Kojonup": {
+        "lga_code": 54550,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Kondinin": {
+        "lga_code": 54620,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Koorda": {
+        "lga_code": 54690,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Kulin": {
+        "lga_code": 54760,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Kwinana": {
+        "lga_code": 54830,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Lake Grace": {
+        "lga_code": 54900,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Laverton": {
+        "lga_code": 54970,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Leonora": {
+        "lga_code": 55040,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Mandurah": {
+        "lga_code": 55110,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Manjimup": {
+        "lga_code": 55180,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Meekatharra": {
+        "lga_code": 55250,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Melville": {
+        "lga_code": 55320,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Menzies": {
+        "lga_code": 55390,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Merredin": {
+        "lga_code": 55460,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Mingenew": {
+        "lga_code": 55530,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Moora": {
+        "lga_code": 55600,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Morawa": {
+        "lga_code": 55670,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Mosman Park": {
+        "lga_code": 55740,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Mount Magnet": {
+        "lga_code": 55810,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Mount Marshall": {
+        "lga_code": 55880,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Mukinbudin": {
+        "lga_code": 55950,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Mundaring": {
+        "lga_code": 56090,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Murchison": {
+        "lga_code": 56160,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Murray": {
+        "lga_code": 56230,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Nannup": {
+        "lga_code": 56300,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Narembeen": {
+        "lga_code": 56370,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Narrogin": {
+        "lga_code": 56460,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Nedlands": {
+        "lga_code": 56580,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Ngaanyatjarraku": {
+        "lga_code": 56620,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Northam": {
+        "lga_code": 56730,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Northampton": {
+        "lga_code": 56790,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Nungarin": {
+        "lga_code": 56860,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Peppermint Grove": {
+        "lga_code": 56930,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Perenjori": {
+        "lga_code": 57000,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Perth": {
+        "lga_code": 57080,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Pingelly": {
+        "lga_code": 57140,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Plantagenet": {
+        "lga_code": 57210,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Port Hedland": {
+        "lga_code": 57280,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Quairading": {
+        "lga_code": 57350,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Ravensthorpe": {
+        "lga_code": 57420,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Rockingham": {
+        "lga_code": 57490,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Sandstone": {
+        "lga_code": 57630,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Serpentine-Jarrahdale": {
+        "lga_code": 57700,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Shark Bay": {
+        "lga_code": 57770,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "South Perth": {
+        "lga_code": 57840,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Stirling": {
+        "lga_code": 57910,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Subiaco": {
+        "lga_code": 57980,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Swan": {
+        "lga_code": 58050,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Tammin": {
+        "lga_code": 58190,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Three Springs": {
+        "lga_code": 58260,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Toodyay": {
+        "lga_code": 58330,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Trayning": {
+        "lga_code": 58400,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Upper Gascoyne": {
+        "lga_code": 58470,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Victoria Park": {
+        "lga_code": 58510,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Victoria Plains": {
+        "lga_code": 58540,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Vincent": {
+        "lga_code": 58570,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Wagin": {
+        "lga_code": 58610,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Wandering": {
+        "lga_code": 58680,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Wanneroo": {
+        "lga_code": 58760,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Waroona": {
+        "lga_code": 58820,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "West Arthur": {
+        "lga_code": 58890,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Westonia": {
+        "lga_code": 59030,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Wickepin": {
+        "lga_code": 59100,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Williams": {
+        "lga_code": 59170,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Wiluna": {
+        "lga_code": 59250,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Wongan-Ballidu": {
+        "lga_code": 59310,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Woodanilling": {
+        "lga_code": 59320,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Wyalkatchem": {
+        "lga_code": 59330,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Wyndham-East Kimberley": {
+        "lga_code": 59340,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Yalgoo": {
+        "lga_code": 59350,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Yilgarn": {
+        "lga_code": 59360,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "York": {
+        "lga_code": 59370,
+        "ste_code": 5,
+        "ste_name": "Western Australia"
+    },
+    "Tasmania": {
+        "ste_code": 6
+    },
+    "Break O'Day": {
+        "lga_code": 60210,
+        "ste_code": 6,
+        "ste_name": "Tasmania"
+    },
+    "Brighton": {
+        "lga_code": 60410,
+        "ste_code": 6,
+        "ste_name": "Tasmania"
+    },
+    "Burnie": {
+        "lga_code": 60610,
+        "ste_code": 6,
+        "ste_name": "Tasmania"
+    },
+    "Central Coast (Tas.)": {
+        "lga_code": 60810,
+        "ste_code": 6,
+        "ste_name": "Tasmania"
+    },
+    "Central Highlands (Tas.)": {
+        "lga_code": 61010,
+        "ste_code": 6,
+        "ste_name": "Tasmania"
+    },
+    "Circular Head": {
+        "lga_code": 61210,
+        "ste_code": 6,
+        "ste_name": "Tasmania"
+    },
+    "Clarence": {
+        "lga_code": 61410,
+        "ste_code": 6,
+        "ste_name": "Tasmania"
+    },
+    "Derwent Valley": {
+        "lga_code": 61510,
+        "ste_code": 6,
+        "ste_name": "Tasmania"
+    },
+    "Devonport": {
+        "lga_code": 61610,
+        "ste_code": 6,
+        "ste_name": "Tasmania"
+    },
+    "Dorset": {
+        "lga_code": 61810,
+        "ste_code": 6,
+        "ste_name": "Tasmania"
+    },
+    "Flinders (Tas.)": {
+        "lga_code": 62010,
+        "ste_code": 6,
+        "ste_name": "Tasmania"
+    },
+    "George Town": {
+        "lga_code": 62210,
+        "ste_code": 6,
+        "ste_name": "Tasmania"
+    },
+    "Glamorgan-Spring Bay": {
+        "lga_code": 62410,
+        "ste_code": 6,
+        "ste_name": "Tasmania"
+    },
+    "Glenorchy": {
+        "lga_code": 62610,
+        "ste_code": 6,
+        "ste_name": "Tasmania"
+    },
+    "Hobart": {
+        "lga_code": 62810,
+        "ste_code": 6,
+        "ste_name": "Tasmania"
+    },
+    "Huon Valley": {
+        "lga_code": 63010,
+        "ste_code": 6,
+        "ste_name": "Tasmania"
+    },
+    "Kentish": {
+        "lga_code": 63210,
+        "ste_code": 6,
+        "ste_name": "Tasmania"
+    },
+    "King Island": {
+        "lga_code": 63410,
+        "ste_code": 6,
+        "ste_name": "Tasmania"
+    },
+    "Kingborough": {
+        "lga_code": 63610,
+        "ste_code": 6,
+        "ste_name": "Tasmania"
+    },
+    "Latrobe (Tas.)": {
+        "lga_code": 63810,
+        "ste_code": 6,
+        "ste_name": "Tasmania"
+    },
+    "Launceston": {
+        "lga_code": 64010,
+        "ste_code": 6,
+        "ste_name": "Tasmania"
+    },
+    "Meander Valley": {
+        "lga_code": 64210,
+        "ste_code": 6,
+        "ste_name": "Tasmania"
+    },
+    "Northern Midlands": {
+        "lga_code": 64610,
+        "ste_code": 6,
+        "ste_name": "Tasmania"
+    },
+    "Sorell": {
+        "lga_code": 64810,
+        "ste_code": 6,
+        "ste_name": "Tasmania"
+    },
+    "Southern Midlands": {
+        "lga_code": 65010,
+        "ste_code": 6,
+        "ste_name": "Tasmania"
+    },
+    "Tasman": {
+        "lga_code": 65210,
+        "ste_code": 6,
+        "ste_name": "Tasmania"
+    },
+    "Waratah-Wynyard": {
+        "lga_code": 65410,
+        "ste_code": 6,
+        "ste_name": "Tasmania"
+    },
+    "West Coast": {
+        "lga_code": 65610,
+        "ste_code": 6,
+        "ste_name": "Tasmania"
+    },
+    "West Tamar": {
+        "lga_code": 65810,
+        "ste_code": 6,
+        "ste_name": "Tasmania"
+    },
+    "Northern Territory": {
+        "ste_code": 7
+    },
+    "Alice Springs": {
+        "lga_code": 70200,
+        "ste_code": 7,
+        "ste_name": "Northern Territory"
+    },
+    "Barkly": {
+        "lga_code": 70420,
+        "ste_code": 7,
+        "ste_name": "Northern Territory"
+    },
+    "Belyuen": {
+        "lga_code": 70540,
+        "ste_code": 7,
+        "ste_name": "Northern Territory"
+    },
+    "Central Desert": {
+        "lga_code": 70620,
+        "ste_code": 7,
+        "ste_name": "Northern Territory"
+    },
+    "Coomalie": {
+        "lga_code": 70700,
+        "ste_code": 7,
+        "ste_name": "Northern Territory"
+    },
+    "Darwin": {
+        "lga_code": 71000,
+        "ste_code": 7,
+        "ste_name": "Northern Territory"
+    },
+    "Darwin Waterfront Precinct": {
+        "lga_code": 71150,
+        "ste_code": 7,
+        "ste_name": "Northern Territory"
+    },
+    "East Arnhem": {
+        "lga_code": 71300,
+        "ste_code": 7,
+        "ste_name": "Northern Territory"
+    },
+    "Katherine": {
+        "lga_code": 72200,
+        "ste_code": 7,
+        "ste_name": "Northern Territory"
+    },
+    "Litchfield": {
+        "lga_code": 72300,
+        "ste_code": 7,
+        "ste_name": "Northern Territory"
+    },
+    "MacDonnell": {
+        "lga_code": 72330,
+        "ste_code": 7,
+        "ste_name": "Northern Territory"
+    },
+    "Palmerston": {
+        "lga_code": 72800,
+        "ste_code": 7,
+        "ste_name": "Northern Territory"
+    },
+    "Roper Gulf": {
+        "lga_code": 73600,
+        "ste_code": 7,
+        "ste_name": "Northern Territory"
+    },
+    "Tiwi Islands": {
+        "lga_code": 74050,
+        "ste_code": 7,
+        "ste_name": "Northern Territory"
+    },
+    "Victoria Daly": {
+        "lga_code": 74550,
+        "ste_code": 7,
+        "ste_name": "Northern Territory"
+    },
+    "Wagait": {
+        "lga_code": 74560,
+        "ste_code": 7,
+        "ste_name": "Northern Territory"
+    },
+    "West Arnhem": {
+        "lga_code": 74660,
+        "ste_code": 7,
+        "ste_name": "Northern Territory"
+    },
+    "West Daly": {
+        "lga_code": 74680,
+        "ste_code": 7,
+        "ste_name": "Northern Territory"
+    },
+    "Unincorporated NT": {
+        "lga_code": 79399,
+        "ste_code": 7,
+        "ste_name": "Northern Territory"
+    },
+    "Australian Capital Territory": {
+        "ste_code": 8
+    },
+    "Unincorporated ACT": {
+        "lga_code": 89399,
+        "ste_code": 8,
+        "ste_name": "Australian Capital Territory"
+    },
+    "Other Territories": {
+        "ste_code": 9
+    },
+    "Unincorp. Other Territories": {
+        "lga_code": 99399,
+        "ste_code": 9,
+        "ste_name": "Other Territories"
+    }
+}
