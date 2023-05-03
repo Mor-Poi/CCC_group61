@@ -16,6 +16,7 @@ input_args = [{"SERVER":"techhub.social","MASTODON_ACCESS_TOKEN":"CC1qGVa6V16zw8
               {"SERVER":"newsie.social","MASTODON_ACCESS_TOKEN":"I5OsF6XIiubBZg4KeVkPrMSXjGpgnRIFpKXxiSyrWDE"},
               {"SERVER":"universeodon.com","MASTODON_ACCESS_TOKEN":"WDqc6sP4yDY7L_IgadDsxezz9ITH7v6jVaXnmXsSjeg"},
               {"SERVER":"fosstodon.org","MASTODON_ACCESS_TOKEN":"Sb9SV4R2Ejr-gjBrorL1_W7TdwHIhSPp9VIb9ijF5hk"},
+              {"SERVER":"techhub.social","MASTODON_ACCESS_TOKEN":"CC1qGVa6V16zw896WrjJQiedCcGH9CZjFVU2EoZlzlw"},
               ]
 
 while True:
@@ -26,8 +27,4 @@ while True:
         server = input_args[i]["SERVER"]
         exit_code = process.wait()
         if exit_code != 0:
-            print(f"Error: subprocess {server} exited with code {exit_code}. Reconnecting...")
-            for process2 in processes:
-                process2.terminate()
-            break
-
+            print(f"Error: subprocess {server} exited with code {exit_code}")
