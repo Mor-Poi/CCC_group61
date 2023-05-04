@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 import subprocess
+import time
 
-
-python_file = "streamTwitter.py"
 
 input_args = [{"SERVER":"techhub.social","MASTODON_ACCESS_TOKEN":"CC1qGVa6V16zw896WrjJQiedCcGH9CZjFVU2EoZlzlw"},
               {"SERVER":"aus.social","MASTODON_ACCESS_TOKEN":"QLFqT36ITEEt0fcJ6CLdUNSvwLZcF5nlAiSpYd-LEJg"},
@@ -18,16 +17,23 @@ input_args = [{"SERVER":"techhub.social","MASTODON_ACCESS_TOKEN":"CC1qGVa6V16zw8
               {"SERVER":"fosstodon.org","MASTODON_ACCESS_TOKEN":"Sb9SV4R2Ejr-gjBrorL1_W7TdwHIhSPp9VIb9ijF5hk"},
               ]
 
-while True:
-    processes = [subprocess.Popen(["python3", python_file] + [f"--{k}={v}" for k, v in args.items()]) for args in input_args]
+verbose = False
+interval = 120
+python_file = "streamTwitter.py"
+processes = [subprocess.Popen(["python3", python_file] + [f"--{k}={v}" for k, v in args.items()]) for args in input_args]
 
-    
+while True:
     for i, process in enumerate(processes):
         server = input_args[i]["SERVER"]
-        exit_code = process.wait()
-        if exit_code != 0:
-            print(f"Error: subprocess {server} exited with code {exit_code}. Reconnecting...")
-            for process2 in processes:
-                process2.terminate()
-            break
+        if process.poll() is not None:
+            # The process has completed
+            if verbose:
+                print("Subprocess {:16s} has completed with return code {:3d}".format(server, process.returncode))
+            processes[i] = subprocess.Popen(["python3", python_file] + [f"--{k}={v}" for k, v in input_args[i].items()])
+        else:
+            if verbose:
+                print("Subprocess {:16s} is running".format(server))
+    # Wait for the interval before checking again
+    time.sleep(interval)
+    print()
 
