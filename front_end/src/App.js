@@ -79,23 +79,22 @@ const App = () => {
         Route path = '/Timeline'
         element = { < Sum / > }
         / > <
-        Route path = '/S1'
+        Route path = '/Scenario1'
         element = { < S1 / > }
         / > <
-        Route path = '/S2'
+        Route path = '/Scenario2'
         element = { < S2 / > }
         / > <
-        Route path = '/S3'
+        Route path = '/Scenario3'
         element = { < S3 / > }
         / > <
-        Route path = '/S4'
+        Route path = '/Scenario4'
         element = { < S4 / > }
         / > < /
         Routes > < /
         div >
         <
-        /div>  <
-        /
+        /div>  < /
         div >
         <
         /BrowserRouter >  < /
