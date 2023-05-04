@@ -6,4 +6,5 @@ export { default as Footer } from './Footer';
 export { default as LineChart } from './Charts/LineChart';
 export { default as Header } from './Header';
 export { default as UserProfile } from './UserProfile';
-export { default as ChartHeader } from './ChartHeader';
+export { default as ChartsHeader } from './ChartsHeader';
+export { default as Pie } from './Charts/Pie';
