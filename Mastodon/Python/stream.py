@@ -1,7 +1,17 @@
 #!/usr/bin/python3
 import subprocess
 import time
+import argparse
 
+# run the script:
+# python3 stream.py
+# python3 stream.py --v True
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--v', default=False, help='Print the status', type=bool)
+args = parser.parse_args()
+verbose = args.v
 
 input_args = [{"SERVER":"techhub.social","MASTODON_ACCESS_TOKEN":"CC1qGVa6V16zw896WrjJQiedCcGH9CZjFVU2EoZlzlw"},
               {"SERVER":"aus.social","MASTODON_ACCESS_TOKEN":"QLFqT36ITEEt0fcJ6CLdUNSvwLZcF5nlAiSpYd-LEJg"},
@@ -16,8 +26,6 @@ input_args = [{"SERVER":"techhub.social","MASTODON_ACCESS_TOKEN":"CC1qGVa6V16zw8
               {"SERVER":"universeodon.com","MASTODON_ACCESS_TOKEN":"WDqc6sP4yDY7L_IgadDsxezz9ITH7v6jVaXnmXsSjeg"},
               {"SERVER":"fosstodon.org","MASTODON_ACCESS_TOKEN":"Sb9SV4R2Ejr-gjBrorL1_W7TdwHIhSPp9VIb9ijF5hk"},
               ]
-
-verbose = False
 interval = 120
 python_file = "streamTwitter.py"
 processes = [subprocess.Popen(["python3", python_file] + [f"--{k}={v}" for k, v in args.items()]) for args in input_args]
