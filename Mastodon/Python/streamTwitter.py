@@ -11,6 +11,7 @@ import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import argparse
 import time, sys
+import requests
 
 class Listener(StreamListener):
     def on_update(self, status):
@@ -24,7 +25,6 @@ class Listener(StreamListener):
 
 
 if __name__ == '__main__':
-    
     parser = argparse.ArgumentParser()
     parser.add_argument("--SERVER", help="SERVER", type=str)
     parser.add_argument("--MASTODON_ACCESS_TOKEN", help="MASTODON_ACCESS_TOKEN", type=str)
@@ -36,6 +36,9 @@ if __name__ == '__main__':
     SERVER = args.SERVER
     MASTODON_ACCESS_TOKEN = args.MASTODON_ACCESS_TOKEN
     
+    # if SERVER == "mas.to":
+    #     time.sleep(1)
+    #     sys.exit(0) 
     FILENAME = f"data/{SERVER}.json" 
     re_clean = re.compile('<.*?>')
     senti = SentimentIntensityAnalyzer()
@@ -45,4 +48,12 @@ if __name__ == '__main__':
             api_base_url = f"https://{SERVER}",
             access_token = MASTODON_ACCESS_TOKEN
         )
-    m.stream_public(Listener())
+    try:
+        m.stream_public(Listener())
+    except Exception as e:
+        print(f"\tError occurred: {e}")
+        sys.exit(1) 
+
+
+
+
