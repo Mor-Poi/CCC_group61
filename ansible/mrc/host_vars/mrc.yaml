@@ -6,14 +6,18 @@ instance_flavor: 	uom.mse.1c4g
 instance_network: gh2-uom-internal
 # Volume
 volumes:
-  - vol_name: demo-vol-1-1
-    vol_size: 10
-  - vol_name: demo-vol-1-2
-    vol_size: 10
-  - vol_name: demo-vol-2-1
-    vol_size: 10
-  - vol_name: demo-vol-2-2
-    vol_size: 10
+  - vol_name: couchDB1-vol-1
+    vol_size: 5
+  - vol_name: couchDB1-vol-2
+    vol_size: 75
+  - vol_name: couchDB2-vol-1
+    vol_size: 5
+  - vol_name: couchDB2-vol-2
+    vol_size: 75
+  - vol_name: couchDB3-vol-1
+    vol_size: 5
+  - vol_name: couchDB3-vol-2
+    vol_size: 30
 
 # Security group
 security_groups:
@@ -32,7 +36,9 @@ security_groups:
 
 # Instance
 instances:
-  - name: demo-1
-    volumes: ["demo-vol-1-1", "demo-vol-1-2"]
-  - name: demo-2
-    volumes: ["demo-vol-2-1", "demo-vol-2-2"]
+  - name: couchDB-1
+    volumes: ["couchDB1-vol-1", "couchDB1-vol-2"]
+  - name: couchDB-2
+    volumes: ["couchDB2-vol-1", "couchDB2-vol-2"]
+  - name: couchDB-3
+    volumes: ["couchDB3-vol-1", "couchDB3-vol-2"]
