@@ -3,6 +3,18 @@ import subprocess
 import time
 import argparse
 
+import os
+
+# Create data folder if not exist
+folder_name = "data"  
+if not os.path.exists(folder_name):
+    os.makedirs(folder_name)
+    print(f"\tFolder '{folder_name}' created.")
+else:
+    print(f"\tFolder '{folder_name}' already exists.")
+
+
+
 # run the script:
 # python3 stream.py
 # python3 stream.py --v True
