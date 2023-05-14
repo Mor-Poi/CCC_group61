@@ -16,11 +16,11 @@ import requests
 class Listener(StreamListener):
     def on_update(self, status):
         with open(FILENAME, 'a') as f:
-            text = status.account.note
+            text = status.content
             cleaned_text = re.sub(re_clean, '', text)
             sentiment_score = senti.polarity_scores(cleaned_text)['compound']
-            status["account"]["note"] = cleaned_text
-            status["account"]["sentiment"] = sentiment_score
+            status["content"] = cleaned_text
+            status["sentiment"] = sentiment_score
             f.write(json.dumps(status, sort_keys=True, default=str) + '\n')
 
 
