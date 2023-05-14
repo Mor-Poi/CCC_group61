@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
@@ -7,8 +7,12 @@ import { Navbar, Footer, Sidebar, ThemeSettings, UserProfile } from './component
 import { S1, S2, S3, S4, Sum } from './pages';
 import './App.css';
 import { useStateContext } from './contexts/ContextProvider';
+import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
+
+mapboxgl.accessToken = 'pk.eyJ1Ijoic2x5dGhlcmlubyIsImEiOiJjbGhpdXRjYmMwYm9tM2ZscmtmdGx3ZDJ5In0.w4ueS0LNoS1jaXZsTgE00A';
 
 const App = () => {
+
     const { setCurrentColor, setCurrentMode, currentMode, activeMenu, currentColor, themeSettings, setThemeSettings } = useStateContext();
 
     useEffect(() => {
@@ -79,9 +83,12 @@ const App = () => {
         Route path = '/Timeline'
         element = { < Sum / > }
         / > <
-        Route path = '/Scenario1'
+        Route path = '/'
         element = { < S1 / > }
         / > <
+        Route path = '/Scenario1'
+        element = { < S1 / > }
+        / >  <
         Route path = '/Scenario2'
         element = { < S2 / > }
         / > <
@@ -99,6 +106,7 @@ const App = () => {
         <
         /BrowserRouter >  < /
         div >
+
     )
 }
 

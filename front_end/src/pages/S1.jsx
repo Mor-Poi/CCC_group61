@@ -1,35 +1,85 @@
-import React from 'react';
-import { ChartComponent, SeriesCollectionDirective, SeriesDirective, Inject, Legend, Category, Tooltip, ColumnSeries, DataLabel } from '@syncfusion/ej2-react-charts';
+import React, {Component} from 'react';
+import L from 'leaflet';
+import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
+import leafGreen from '../assets/leaf-green.png';
+import leafRed from '../assets/leaf-red.png';
+import leafOrange from '../data/avatar2.JPG';
+import leafShadow from '../assets/leaf-shadow.png';
 
-import { barCustomSeries, barPrimaryXAxis, barPrimaryYAxis } from '../data/dummy';
-import { ChartsHeader } from '../components';
-import { useStateContext } from '../contexts/ContextProvider';
+class S1 extends Component {
+  
+  state = {
+    greenIcon: {
+      lat: -37.836,
+      lng: 144.9831,
+    },
+    redIcon: {
+      lat:  -37.1639 ,
+      lng:  145.6125,
+    },
+    orangeIcon: {
+      lat:  -37.2073,
+      lng:   146.2242,
+    },
+    zoom: 8.35
+  }
 
-const S1 = () => {
-  const { currentMode } = useStateContext();
 
-  return (
-    <div className="m-4 md:m-10 mt-24 p-10 bg-white dark:bg-secondary-dark-bg rounded-3xl">
-      <ChartsHeader category="Bar chart" title="CAT or DOG?" />
-      <div className=" w-full">
-        <ChartComponent
-          id="charts"
-          primaryXAxis={barPrimaryXAxis}
-          primaryYAxis={barPrimaryYAxis}
-          chartArea={{ border: { width: 0 } }}
-          tooltip={{ enable: true }}
-          background={currentMode === 'Dark' ? '#33373E' : '#fff'}
-          legendSettings={{ background: 'white' }}
-        >
-          <Inject services={[ColumnSeries, Legend, Tooltip, Category, DataLabel]} />
-          <SeriesCollectionDirective>
-            {/* eslint-disable-next-line react/jsx-props-no-spreading */}
-            {barCustomSeries.map((item, index) => <SeriesDirective key={index} {...item} />)}
-          </SeriesCollectionDirective>
-        </ChartComponent>
-      </div>
-    </div>
-  );
-};
+  grenIcon = L.icon({
+    iconUrl: leafGreen,
+    shadowUrl: leafShadow,
+    iconSize:     [38, 95], // size of the icon
+    shadowSize:   [50, 64], // size of the shadow
+    iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+    shadowAnchor: [4, 62],  // the same for the shadow
+    popupAnchor:  [-3, -76]
+  });
+
+  redIcon = L.icon({
+    iconUrl: leafRed,
+    shadowUrl: leafShadow,
+    iconSize:     [38, 95], // size of the icon
+    shadowSize:   [50, 64], // size of the shadow
+    iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+    shadowAnchor: [4, 62],  // the same for the shadow
+    popupAnchor:  [-3, -86]
+  });
+
+  orangeIcon = L.icon({
+    iconUrl: leafOrange,
+    iconSize:     [30, 30], // size of the icon // size of the shadow
+    iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location  // the same for the shadow
+    popupAnchor:  [-3, -86]
+  });
+
+  render(){
+    const positionRedIcon = [this.state.redIcon.lat, this.state.redIcon.lng];
+    const positionGreenIcon = [this.state.greenIcon.lat, this.state.greenIcon.lng];
+    const positionOrangeIcon = [this.state.orangeIcon.lat, this.state.orangeIcon.lng];
+    return (
+      <Map className="map" center={positionGreenIcon} zoom={this.state.zoom}>
+        <TileLayer
+          attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        />
+        <Marker position={positionGreenIcon} icon={this.grenIcon}>
+          <Popup>
+          Prefer kfc
+          </Popup>
+        </Marker>
+        <Marker position={positionRedIcon} icon={this.redIcon}>
+          <Popup>
+          Prefer kfc
+          </Popup>
+        </Marker>
+        <Marker position={positionOrangeIcon} icon={this.orangeIcon}>
+          <Popup>
+          Prefer kfc
+          </Popup>
+        </Marker>
+      </Map>
+    );
+  }
+}
 
 export default S1;
