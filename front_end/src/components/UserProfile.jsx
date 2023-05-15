@@ -20,11 +20,6 @@ const UserProfile = () => {
         />
       </div>
       <div className="flex gap-5 items-center mt-6 border-color border-b-1 pb-6">
-        <img
-          className="rounded-full h-24 w-24"
-          src={avatar}
-          alt="user-profile"
-        />
         <div>
           <p className="font-semibold text-xm dark:text-gray-200"> YUANBO XU </p>
           <p className="text-gray-500 text-sm font-semibold dark:text-gray-400"> yuanbo.xu@student.unimelb.edu.au </p>

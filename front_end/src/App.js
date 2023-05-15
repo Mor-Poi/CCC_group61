@@ -4,7 +4,7 @@ import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
 import { Navbar, Footer, Sidebar, ThemeSettings, UserProfile } from './components';
-import { S1, S2, S3, S4, Sum } from './pages';
+import { S1, S1_1, S2, S3, S4, Sum } from './pages';
 import './App.css';
 import { useStateContext } from './contexts/ContextProvider';
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
@@ -80,15 +80,15 @@ const App = () => {
         /div> <
         div > { themeSettings && ( < ThemeSettings / > ) } <
         Routes > { /* dashboard  */ } <
-        Route path = '/Timeline'
-        element = { < Sum / > }
-        / > <
         Route path = '/'
         element = { < S1 / > }
         / > <
         Route path = '/Scenario1'
         element = { < S1 / > }
-        / >  <
+        / > <
+        Route path = '/Scenario1_1'
+        element = { < S1_1 / > }
+        / ><
         Route path = '/Scenario2'
         element = { < S2 / > }
         / > <

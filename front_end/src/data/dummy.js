@@ -1,5 +1,10 @@
 import React from 'react';
-import { AiOutlineCalendar, AiOutlineShoppingCart, AiOutlineAreaChart, AiOutlineBarChart, AiOutlineStock } from 'react-icons/ai';
+import { AiOutlineCalendar, AiOutlineStock } from 'react-icons/ai';
+import { BsEmojiSunglasses } from 'react-icons/bs';
+import { FiMapPin } from 'react-icons/fi';
+import { BiFootball } from 'react-icons/bi';
+import { VscOctoface } from 'react-icons/vsc';
+import { IoFastFood } from "react-icons/io5";
 import { FiShoppingBag, FiEdit, FiPieChart, FiBarChart, FiCreditCard, FiStar, FiShoppingCart } from 'react-icons/fi';
 import { BsKanban, BsBarChart, BsBoxSeam, BsCurrencyDollar, BsShield, BsChatLeft } from 'react-icons/bs';
 import { BiColorFill } from 'react-icons/bi';
@@ -16,35 +21,47 @@ import avatar3 from './avatar3.JPG';
 import avatar4 from './avatar4.JPG';
 import avatar5 from './avatar5.JPG';
 
-export const links = [{
-        title: 'Dashboard',
-        links: [{
-            name: 'Timeline',
-            icon: < AiOutlineBarChart / > ,
-        }, ],
-    },
+export const links = [
 
     {
-        title: 'Scenarios',
+        title: 'Scenario1',
         links: [{
                 name: 'Scenario1',
-                icon: < AiOutlineStock / > ,
+                icon: < FiMapPin / > ,
 
             },
             {
-                name: 'Scenario2',
-                icon: < AiOutlineAreaChart / > ,
-            },
-            {
-                name: 'Scenario3',
-                icon: < AiOutlineBarChart / > ,
-            },
-            {
-                name: 'Scenario4',
-                icon: < RiStockLine / > ,
+                name: 'Scenario1_1',
+                icon: < BsEmojiSunglasses / > ,
+
             },
         ],
     },
+    {
+        title: 'Scenario2',
+        links: [{
+            name: 'Scenario2',
+            icon: < VscOctoface / > ,
+
+        }, ],
+    },
+    {
+        title: 'Scenario3',
+        links: [{
+            name: 'Scenario3',
+            icon: < BiFootball / > ,
+
+        }, ],
+    },
+    {
+        title: 'Scenario4',
+        links: [{
+            name: 'Scenario4',
+            icon: < IoFastFood / > ,
+
+        }, ],
+    },
+
 ];
 
 export const scheduleData = [{
@@ -133,12 +150,14 @@ export const barPrimaryYAxis = {
 
 export const barChartData = [
     [
-        { x: 'avg', y: 0.0634 },
-        { x: 'sum', y: 381 },
+        { x: 'avg', y: 634, name: "CAT" },
+        { x: 'sum', y: 381, name: "DOG" },
+
     ],
     [
-        { x: 'avg', y: 0.0294 },
-        { x: 'sum', y: 301 },
+        { x: 'avg', y: 294, name: "CAT" },
+        { x: 'sum', y: 301, name: "DOG" },
+
     ],
 ]
 
