@@ -1,43 +1,61 @@
 import React from 'react';
-
-import { pieChartData } from '../data/dummy';
-import { ChartsHeader, Pie as PieChart } from '../components';
+import { ChartsHeader } from '../components';
 import { ChartComponent, SeriesCollectionDirective, SeriesDirective, Inject, Legend, Category, Tooltip, ColumnSeries, DataLabel } from '@syncfusion/ej2-react-charts';
 
-import { barCustomSeries, barPrimaryXAxis, barPrimaryYAxis } from '../data/dummy';
 import { useStateContext } from '../contexts/ContextProvider';
+import barChartData from '../data/AFL.json'; 
 
 const S2 = () => {
-  
   const { currentMode } = useStateContext();
-  
-    return (
-      <div className="m-4 md:m-10 mt-18 p-10 bg-white dark:bg-secondary-dark-bg rounded-3xl">
-        <div className="flex justify-around flex-wrap"> 
-          <div className="w-full md:w-1/2">
-            <ChartsHeader category="Pie" title="CAT or DOG?" />
-            <PieChart id="chart-pie" data={pieChartData} legendVisiblity height="full" />
-          </div>
-          <div className="w-full md:w-1/2">
-            <ChartsHeader category="Bar chart" title="CAT or DOG?" />
-            <ChartComponent
-              id="charts"
-              primaryXAxis={barPrimaryXAxis}
-              primaryYAxis={barPrimaryYAxis}
-              chartArea={{ border: { width: 0 } }}
-              tooltip={{ enable: true }}
-              background={currentMode === 'Dark' ? '#33373E' : '#fff'}
-              legendSettings={{ background: 'white' }}
-            >
-              <Inject services={[ColumnSeries, Legend, Tooltip, Category, DataLabel]} />
-              <SeriesCollectionDirective>
-                {barCustomSeries.map((item, index) => <SeriesDirective key={index} {...item} />)}
-              </SeriesCollectionDirective>
-            </ChartComponent>
-          </div>
+
+  const transformedData = barChartData
+    .sort((a, b) => b.avg - a.avg) 
+    .map((dataItem, index) => ({
+      team: dataItem.team,
+      avg: dataItem.avg,
+      category: Math.floor(index / 3), 
+    }));
+
+  return (
+    <div className="m-4 md:m-10 mt-18 p-10 bg-white dark:bg-secondary-dark-bg rounded-3xl">
+      <div className="flex justify-around flex-wrap">
+        <div className="w-full md:full">
+          <ChartsHeader category="Bar chart" title="Average AFL Scores by Team" />
+          <ChartComponent
+            id="charts"
+            primaryXAxis={{ valueType: 'Category' }}
+            primaryYAxis={{ title: 'Average Score' }}
+            chartArea={{ border: { width: 0 } }}
+            tooltip={{ enable: true }}
+            background={currentMode === 'Dark' ? '#33373E' : '#fff'}
+            legendSettings={{ background: 'white' }}
+          >
+            <Inject services={[ColumnSeries, Legend, Tooltip, Category, DataLabel]} />
+            <SeriesCollectionDirective>
+              <SeriesDirective
+                dataSource={transformedData}
+                xName="team"
+                yName="avg"
+                name="Average Score"
+                type="Column"
+                marker={{
+                  visible: true,
+                  width: 10,
+                  height: 10,
+                  shape: 'Circle',
+                }}
+                markerDataLabel={{ visible: true }}
+                fill={(point) => {
+                  const categoryColors = ['#FF4081', '#536DFE', '#00BDAF']; 
+                  return categoryColors[point.category % categoryColors.length];
+                }}
+              />
+            </SeriesCollectionDirective>
+          </ChartComponent>
         </div>
       </div>
-    );
-  };
+    </div>
+  );
+};
 
 export default S2;

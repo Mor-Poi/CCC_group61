@@ -5,10 +5,6 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
-.map-container {
-    height: 700px;
-}
-
 .sidebar {
     background-color: rgba(35, 55, 75, 0.9);
     color: #fff;
@@ -24,6 +20,10 @@ body {
 
 .map {
     height: 100vh;
+}
+
+.map-container {
+    height: 700px;
 }
 
 @tailwind base;

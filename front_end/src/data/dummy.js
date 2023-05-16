@@ -31,6 +31,11 @@ export const links = [
 
             },
             {
+                name: 'Scenario1_p',
+                icon: < FiMapPin / > ,
+
+            },
+            {
                 name: 'Scenario1_1',
                 icon: < BsEmojiSunglasses / > ,
 
@@ -41,7 +46,7 @@ export const links = [
         title: 'Scenario2',
         links: [{
             name: 'Scenario2',
-            icon: < VscOctoface / > ,
+            icon: < BiFootball / > ,
 
         }, ],
     },
@@ -49,7 +54,7 @@ export const links = [
         title: 'Scenario3',
         links: [{
             name: 'Scenario3',
-            icon: < BiFootball / > ,
+            icon: < VscOctoface / > ,
 
         }, ],
     },
@@ -286,18 +291,54 @@ const areaChartData = [
         { x: new Date('December 17, 2021 23:00:00'), y: 0.069 },
 
     ],
+    [
+        { x: new Date('December 17, 2021 00:00:00'), y: 0.01659485139763562 },
+        { x: new Date('December 17, 2021 01:00:00'), y: 0.014625627592228772 },
+        { x: new Date('December 17, 2021 02:00:00'), y: 0.015158829776962441 },
+        { x: new Date('December 17, 2021 03:00:00'), y: 0.013099234960647256 },
+        { x: new Date('December 17, 2021 04:00:00'), y: 0.012954106356697179 },
+        { x: new Date('December 17, 2021 05:00:00'), y: 0.015417282127031019 },
+        { x: new Date('December 17, 2021 06:00:00'), y: 0.017957766520576013 },
+        { x: new Date('December 17, 2021 07:00:00'), y: 0.022386831275720165 },
+        { x: new Date('December 17, 2021 08:00:00'), y: 0.02200939552025747 },
+        { x: new Date('December 17, 2021 09:00:00'), y: 0.02294526988903517 },
+        { x: new Date('December 17, 2021 10:00:00'), y: 0.02458119574995745 },
+        { x: new Date('December 17, 2021 11:00:00'), y: 0.024107106742709217 },
+        { x: new Date('December 17, 2021 12:00:00'), y: 0.029938310014400255 },
+        { x: new Date('December 17, 2021 13:00:00'), y: 0.030105519847063958 },
+        { x: new Date('December 17, 2021 14:00:00'), y: 0.02680675848360074 },
+        { x: new Date('December 17, 2021 15:00:00'), y: 0.02673765926438971 },
+        { x: new Date('December 17, 2021 16:00:00'), y: 0.025644730188542946 },
+        { x: new Date('December 17, 2021 17:00:00'), y: 0.02665848742441504 },
+        { x: new Date('December 17, 2021 18:00:00'), y: 0.025135713110708998 },
+        { x: new Date('December 17, 2021 19:00:00'), y: 0.024383457325288502 },
+        { x: new Date('December 17, 2021 20:00:00'), y: 0.023400824736384003 },
+        { x: new Date('December 17, 2021 21:00:00'), y: 0.02297831034944437 },
+        { x: new Date('December 17, 2021 22:00:00'), y: 0.0187079220701845 },
+        { x: new Date('December 17, 2021 23:00:00'), y: 0.017236813065548445 },
+    ],
 ];
 
 export const areaCustomSeries = [{
-    dataSource: areaChartData[0],
-    xName: 'x',
-    yName: 'y',
-    name: 'Sentiment',
-    opacity: '0.8',
-    type: 'SplineArea',
-    width: '2',
+        dataSource: areaChartData[0],
+        xName: 'x',
+        yName: 'y',
+        name: "Twitter user's sentiment",
+        opacity: '0.8',
+        type: 'SplineArea',
+        width: '2',
 
-}, ];
+    },
+    {
+        dataSource: areaChartData[1],
+        xName: 'x',
+        yName: 'y',
+        name: "Mastodon user's sentiment",
+        opacity: '0.8',
+        type: 'SplineArea',
+        width: '2',
+    },
+];
 
 export const areaPrimaryXAxis = {
     valueType: 'DateTime',
@@ -310,7 +351,7 @@ export const areaPrimaryXAxis = {
 export const areaPrimaryYAxis = {
     labelFormat: '{value}',
     lineStyle: { width: 0 },
-    minimum: 0.05,
+    minimum: 0.01,
     maximum: 0.08,
     interval: 0.01,
     majorTickLines: { width: 0 },

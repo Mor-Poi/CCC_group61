@@ -1,6 +1,5 @@
 import React from 'react';
 import { ChartsHeader, Pie as PieChart } from '../components';
-import { pieChartData } from '../data/dummy';
 import { ChartComponent, SeriesCollectionDirective, SeriesDirective, Inject, Legend, Category, Tooltip, ColumnSeries, DataLabel } from '@syncfusion/ej2-react-charts';
 
 import { useStateContext } from '../contexts/ContextProvider';

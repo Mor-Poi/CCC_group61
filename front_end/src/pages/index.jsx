@@ -4,3 +4,4 @@ export { default as S3 } from './S3';
 export { default as S4 } from './S4';
 export { default as Sum} from './Sum';
 export { default as S1_1} from './S1_1';
+export { default as S1_p} from './S1_p';

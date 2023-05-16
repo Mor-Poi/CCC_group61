@@ -20,7 +20,7 @@ class S1 extends Component {
           const customIcon = L.divIcon({
             className: 'custom-icon',
             html: `<div>${emoji}</div>`, // Use parsed emoji in the HTML
-            iconSize: [90, 90],
+            iconSize: [20, 20],
           });
 
           return (
