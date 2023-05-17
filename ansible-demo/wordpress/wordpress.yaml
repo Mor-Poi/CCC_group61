@@ -1,4 +1,4 @@
-- hosts: CouchDB
+- hosts: Demo
   vars_files:
     - host_vars/wordpress.yaml
   gather_facts: false
