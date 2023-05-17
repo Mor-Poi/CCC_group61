@@ -2,11 +2,17 @@ import React, { Component } from 'react';
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import coordinates from '../data/coordinates.json';
-
 class S1 extends Component {
   state = {
     zoom: 5,
   };
+
+//  componentDidMount() 
+//{ fetch('/api/coordinates') // Replace with your API endpoint
+  //  .then(response => response.json())
+    //.then(coordinates => this.setState({ coordinates }));
+//}
+
 
   render() {
     return (

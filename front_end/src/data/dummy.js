@@ -317,6 +317,17 @@ const areaChartData = [
         { x: new Date('December 17, 2021 22:00:00'), y: 0.0187079220701845 },
         { x: new Date('December 17, 2021 23:00:00'), y: 0.017236813065548445 },
     ],
+    [
+        { x: 'Monday', y: 0.0646779171390525 },
+        { x: 'Tuesday', y: 0.014625627592228772 },
+        { x: 'Wednesday', y: 0.06456042458628372 },
+        { x: 'Thursday', y: 0.06462759237534485 },
+        { x: 'Friday', y: 0.06663248784343506 },
+        { x: 'Saturday ', y: 0.06664027096149207 },
+        { x: 'Sunday', y: 0.06543609446751482 },
+
+    ],
+
 ];
 
 export const areaCustomSeries = [{
@@ -340,6 +351,16 @@ export const areaCustomSeries = [{
     },
 ];
 
+export const areaCustomSeries1 = [{
+    dataSource: areaChartData[2],
+    xName: 'x',
+    yName: 'y',
+    name: "Twitter user's weekly sentiment",
+    opacity: '0.8',
+    type: 'SplineArea',
+
+}, ];
+
 export const areaPrimaryXAxis = {
     valueType: 'DateTime',
     majorGridLines: { width: 0 },
@@ -349,6 +370,27 @@ export const areaPrimaryXAxis = {
 };
 
 export const areaPrimaryYAxis = {
+    labelFormat: '{value}',
+    lineStyle: { width: 0 },
+    minimum: 0.01,
+    maximum: 0.08,
+    interval: 0.01,
+    majorTickLines: { width: 0 },
+    minorTickLines: { width: 0 },
+    labelStyle: { color: 'gray' },
+
+};
+
+export const areaPrimaryXAxis1 = {
+    valueType: 'Category',
+    categories: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+    majorGridLines: { width: 0 },
+    edgeLabelPlacement: 'Shift',
+    labelStyle: { color: 'gray' },
+};
+
+
+export const areaPrimaryYAxis1 = {
     labelFormat: '{value}',
     lineStyle: { width: 0 },
     minimum: 0.01,

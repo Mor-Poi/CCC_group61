@@ -1,14 +1,11 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { ChartComponent, SeriesCollectionDirective, SeriesDirective, Inject, DateTime, SplineAreaSeries, Legend} from '@syncfusion/ej2-react-charts';
 import { ChartsHeader } from '../components';
-import { areaCustomSeries, areaPrimaryXAxis, areaPrimaryYAxis } from '../data/dummy';
+import { areaCustomSeries, areaPrimaryXAxis, areaPrimaryYAxis, areaCustomSeries1, areaPrimaryXAxis1, areaPrimaryYAxis1 } from '../data/dummy';
 import { useStateContext } from '../contexts/ContextProvider';
-
-
 
 const S3 = () => {
   const { currentMode } = useStateContext();
-
 
   return (
     <div className="m-4 md:m-10 mt-24 p-10 bg-white dark:bg-secondary-dark-bg rounded-3xl">
@@ -24,11 +21,11 @@ const S3 = () => {
         >
           <Inject services={[SplineAreaSeries, DateTime, Legend]} />
           <SeriesCollectionDirective>
-            {/* eslint-disable-next-line react/jsx-props-no-spreading */}
             {areaCustomSeries.map((item, index) => <SeriesDirective key={index} {...item} />)}
           </SeriesCollectionDirective>
         </ChartComponent>
       </div>
+
     </div>
   );
 };
