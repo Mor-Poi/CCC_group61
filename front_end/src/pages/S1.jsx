@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
+import { ChartsHeader } from '../components';
 import { useStateContext } from '../contexts/ContextProvider';
 // import coordinates from '../data/coordinates.json';
 
@@ -17,7 +18,7 @@ const S1 = () => {
 
   return (
     <div className="m-4 md:m-10 mt-18 p-10 bg-white dark:bg-secondary-dark-bg rounded-3xl">
-      <h1 style={{ textAlign: 'center', fontWeight: 'bold' }}>Distribution of the Four Most Frequently Used Emojis in Each State of Australia</h1>
+      <ChartsHeader category="Map" title="Distribution of the Four Most Frequently Used Emojis in Each State of Australia" />
       <Map className="map" center={coordinates[0] || [0,0]} zoom={zoom}>
         <TileLayer
           attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
