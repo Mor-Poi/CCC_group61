@@ -9,7 +9,7 @@ const S2 = () => {
   const [barChartData, setBarChartData] = useState([]);
 
   useEffect(() => {
-    fetch('/api/barChartData') 
+    fetch('/api/AFL') 
       .then(response => response.json())
       .then(data => setBarChartData(data))
       .catch(error => console.error(error));
