@@ -1,64 +1,22 @@
 import React, { useEffect, useState } from 'react';
-import { ChartsHeader, Pie as PieChart } from '../components';
+import { ChartsHeader } from '../components';
 import { ChartComponent, SeriesCollectionDirective, SeriesDirective, Inject, Legend, Category, Tooltip, ColumnSeries, DataLabel } from '@syncfusion/ej2-react-charts';
 
 import { useStateContext } from '../contexts/ContextProvider';
+import barChartData from '../data/barChartData.json';
 
 const S1_1 = () => {
   const { currentMode } = useStateContext();
 
-  const barChartData = [
-    {
-      language: 'English',
-      emojis: [
-        { emoji: '😂', value: 70004 },
-        { emoji: '👏', value: 26675 },
-        { emoji: '🙏', value: 25273 },
-        { emoji: '🔥', value: 23035 },
-        { emoji: '😅', value: 23710 }
-      ]
-    },
-    {
-      language: 'Japanese',
-      emojis: [
-        { emoji: '😂', value: 4296 },
-        { emoji: '😊', value: 3013 },
-        { emoji: '😭', value: 2621 },
-        { emoji: '😅', value: 2080 },
-        { emoji: '😆', value: 1665 }
-      ]
-    },
-    {
-      language: 'Indonesian',
-      emojis: [
-        { emoji: '😂', value: 1753 },
-        { emoji: '👏', value: 1464 },
-        { emoji: '😭', value: 486 },
-        { emoji: '🔥', value: 278 },
-        { emoji: '💙', value: 249 }
-      ]
-    },
-    {
-      language: 'Spanish',
-      emojis: [
-        { emoji: '😂', value: 1729 },
-        { emoji: '💜', value: 1289 },
-        { emoji: '🐣', value: 1212 },
-        { emoji: '😍', value: 560 },
-        { emoji: '😉', value: 551 }
-      ]
-    },
-    {
-      language: 'Arabic',
-      emojis: [
-        { emoji: '😂', value: 3454 },
-        { emoji: '🙏', value: 2875 },
-        { emoji: '🌹', value: 2515 },
-        { emoji: '😅', value: 1693 },
-        { emoji: '👏', value: 1677 }
-      ]
-    }
-  ];
+  // const [barChartData, setBarChartData] = useState([]);
+
+  // useEffect(() => {
+  //   fetch('/api/barChartData') 
+  //     .then(response => response.json())
+  //     .then(data => setBarChartData(data))
+  //     .catch(error => console.error(error));
+  // }, []);
+
 
   return (
     <div className="m-4 md:m-10 mt-18 p-10 bg-white dark:bg-secondary-dark-bg rounded-3xl">

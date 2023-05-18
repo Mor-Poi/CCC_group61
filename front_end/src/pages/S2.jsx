@@ -1,20 +1,20 @@
 import React from 'react';
 import { ChartsHeader } from '../components';
 import { ChartComponent, SeriesCollectionDirective, SeriesDirective, Inject, Legend, Category, Tooltip, ColumnSeries, DataLabel } from '@syncfusion/ej2-react-charts';
-
 import { useStateContext } from '../contexts/ContextProvider';
 import barChartData from '../data/AFL.json'; 
 
 const S2 = () => {
   const { currentMode } = useStateContext();
+    // const [barChartData, setBarChartData] = useState([]);
 
-  const transformedData = barChartData
-    .sort((a, b) => b.avg - a.avg) 
-    .map((dataItem, index) => ({
-      team: dataItem.team,
-      avg: dataItem.avg,
-      category: Math.floor(index / 3), 
-    }));
+  // useEffect(() => {
+  //   fetch('/api/barChartData') 
+  //     .then(response => response.json())
+  //     .then(data => setBarChartData(data))
+  //     .catch(error => console.error(error));
+  // }, []);
+
 
   return (
     <div className="m-4 md:m-10 mt-18 p-10 bg-white dark:bg-secondary-dark-bg rounded-3xl">
@@ -33,7 +33,7 @@ const S2 = () => {
             <Inject services={[ColumnSeries, Legend, Tooltip, Category, DataLabel]} />
             <SeriesCollectionDirective>
               <SeriesDirective
-                dataSource={transformedData}
+                dataSource={barChartData}
                 xName="team"
                 yName="avg"
                 name="Average Score"
