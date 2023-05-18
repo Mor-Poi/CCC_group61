@@ -3,19 +3,19 @@ import { ChartsHeader } from '../components';
 import { ChartComponent, SeriesCollectionDirective, SeriesDirective, Inject, Legend, Category, Tooltip, ColumnSeries, DataLabel } from '@syncfusion/ej2-react-charts';
 
 import { useStateContext } from '../contexts/ContextProvider';
-import barChartData from '../data/barChartData.json';
+// import barChartData from '../data/barChartData.json';
 
 const S1_1 = () => {
   const { currentMode } = useStateContext();
 
-  // const [barChartData, setBarChartData] = useState([]);
+  const [barChartData, setBarChartData] = useState([]);
 
-  // useEffect(() => {
-  //   fetch('/api/barChartData') 
-  //     .then(response => response.json())
-  //     .then(data => setBarChartData(data))
-  //     .catch(error => console.error(error));
-  // }, []);
+  useEffect(() => {
+    fetch('/api/barChartData') 
+      .then(response => response.json())
+      .then(data => setBarChartData(data))
+      .catch(error => console.error(error));
+  }, []);
 
 
   return (

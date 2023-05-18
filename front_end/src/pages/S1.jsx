@@ -2,18 +2,18 @@ import React, { useState, useEffect } from 'react';
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import { useStateContext } from '../contexts/ContextProvider';
-import coordinates from '../data/coordinates.json';
+// import coordinates from '../data/coordinates.json';
 
 const S1 = () => {
   const [zoom, setZoom] = useState(5);
-  // const [coordinates, setCoordinates] = useState([]); 
+  const [coordinates, setCoordinates] = useState([]); 
   const { currentMode } = useStateContext();
 
-  // useEffect(() => {
-  //   fetch('/api/coordinates') 
-  //     .then(response => response.json())
-  //     .then(data => setCoordinates(data)); 
-  // }, []);
+  useEffect(() => {
+    fetch('/api/coordinates') 
+      .then(response => response.json())
+      .then(data => setCoordinates(data)); 
+  }, []);
 
   return (
     <div className="m-4 md:m-10 mt-18 p-10 bg-white dark:bg-secondary-dark-bg rounded-3xl">
