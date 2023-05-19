@@ -4,7 +4,7 @@ import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
 import { Navbar, Sidebar, ThemeSettings, UserProfile } from './components';
-import { S1, S1_1, S1_p, S2, S3, S4 } from './pages';
+import { S1, S1_1, S1_p, S2, S3, S4, S2_1 } from './pages';
 import './App.css';
 import { useStateContext } from './contexts/ContextProvider';
 import mapboxgl from 'mapbox-gl';
@@ -86,15 +86,18 @@ const App = () => {
         Route path = '/Scenario1'
         element = { < S1 / > }
         / > <
-        Route path = '/Scenario1_p'
+        Route path = '/Scenario1.1'
         element = { < S1_p / > }
         / ><
-        Route path = '/Scenario1_1'
+        Route path = '/Scenario1.2'
         element = { < S1_1 / > }
-        / ><
+        / >  <
         Route path = '/Scenario2'
         element = { < S2 / > }
-        / > <
+        / ><
+        Route path = '/Scenario2.1'
+        element = { < S2_1 / > }
+        / ><
         Route path = '/Scenario3'
         element = { < S3 / > }
         / > <

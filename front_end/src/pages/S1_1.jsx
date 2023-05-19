@@ -1,14 +1,27 @@
 import React, { useEffect, useState } from 'react';
-import { ChartsHeader } from '../components';
+import { ChartsHeader, Pie as PieChart } from '../components';
 import { ChartComponent, SeriesCollectionDirective, SeriesDirective, Inject, Legend, Category, Tooltip, ColumnSeries, DataLabel } from '@syncfusion/ej2-react-charts';
 
 import { useStateContext } from '../contexts/ContextProvider';
-// import barChartData from '../data/barChartData.json';
+import sentiment from '../data/sentiment.json';
 
 const S1_1 = () => {
   const { currentMode } = useStateContext();
 
   const [barChartData, setBarChartData] = useState([]);
+
+  // const [sentiment, setSentiment] = useState([]);
+
+
+
+  // useEffect(() => {
+  //   fetch('/api/sentiment') 
+  //     .then(response => response.json())
+  //     .then(data => setSentiment(data))
+  //     .catch(error => console.error(error));
+  // }, []);
+
+
 
   useEffect(() => {
     fetch('/api/barChartData') 
@@ -48,6 +61,20 @@ const S1_1 = () => {
           </ChartComponent>
         </div>
       </div>
+      <ChartsHeader category="Pie chart" title="Emotional Percentages of the Top Five Most Common Emojis" />
+      <div className="flex justify-between">
+
+{sentiment.map((item,index) => {
+  const chartId = `chart-pie-${index}`;
+  const emoji = JSON.parse(`"${item.emoji}"`); 
+  return  (<div style = { {flex: 1,width: '33.33%',padding: '0 10px',}} key={index}> 
+      
+  <PieChart id="chart-pie" id ={chartId} data={item.data}legendVisiblity height="full" />    <div style={{ textAlign: 'center', marginTop: '10px' }}>
+          <h3>{emoji}</h3>
+        </div> 
+ </div>);
+}
+)}</div>
     </div>
   );
 };

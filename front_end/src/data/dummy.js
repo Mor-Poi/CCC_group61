@@ -1,9 +1,9 @@
 import React from 'react';
-import { AiOutlineCalendar, AiOutlineStock } from 'react-icons/ai';
 import { BsEmojiSunglasses } from 'react-icons/bs';
+import { HiOutlineEmojiHappy } from 'react-icons/hi';
 import { FiMapPin } from 'react-icons/fi';
-import { BiFootball } from 'react-icons/bi';
-import { VscOctoface } from 'react-icons/vsc';
+import { BiFootball, BiTimeFive, BiBus } from 'react-icons/bi';
+import { AiOutlineTeam } from 'react-icons/ai';
 import { IoFastFood } from "react-icons/io5";
 
 import avatar from './avatar.JPG';
@@ -19,12 +19,12 @@ export const links = [
 
             },
             {
-                name: 'Scenario1_p',
-                icon: < FiMapPin / > ,
+                name: 'Scenario1.1',
+                icon: < HiOutlineEmojiHappy / > ,
 
             },
             {
-                name: 'Scenario1_1',
+                name: 'Scenario1.2',
                 icon: < BsEmojiSunglasses / > ,
 
             },
@@ -33,16 +33,22 @@ export const links = [
     {
         title: 'Scenario2',
         links: [{
-            name: 'Scenario2',
-            icon: < BiFootball / > ,
+                name: 'Scenario2',
+                icon: < BiFootball / > ,
 
-        }, ],
+            },
+            {
+                name: 'Scenario2.1',
+                icon: < BiTimeFive / > ,
+
+            },
+        ],
     },
     {
         title: 'Scenario3',
         links: [{
             name: 'Scenario3',
-            icon: < VscOctoface / > ,
+            icon: < AiOutlineTeam / > ,
 
         }, ],
     },
@@ -50,52 +56,9 @@ export const links = [
         title: 'Scenario4',
         links: [{
             name: 'Scenario4',
-            icon: < IoFastFood / > ,
+            icon: < BiBus / > ,
 
         }, ],
-    },
-
-];
-
-export const scheduleData = [{
-        Id: 1,
-        Subject: 'meeting1',
-        Location: 'erc',
-        StartTime: '2023-04-10T04:00:00.000Z',
-        EndTime: '2023-04-10T05:30:00.000Z',
-        CategoryColor: '#1aaa55',
-    },
-    {
-        Id: 2,
-        Subject: 'meeting2',
-        Location: 'erc',
-        StartTime: '2023-04-11T06:30:00.000Z',
-        EndTime: '2023-04-11T08:30:00.000Z',
-        CategoryColor: '#357cd2',
-    },
-    {
-        Id: 3,
-        Subject: 'meeting3',
-        Location: 'erc',
-        StartTime: '2023-04-12T04:00:00.000Z',
-        EndTime: '2023-04-12T05:30:00.000Z',
-        CategoryColor: '#7fa900',
-    },
-    {
-        Id: 4,
-        Subject: 'meeting4',
-        Location: 'erc',
-        StartTime: '2023-04-13T07:30:00.000Z',
-        EndTime: '2023-04-13T09:00:00.000Z',
-        CategoryColor: '#ea7a57',
-    },
-    {
-        Id: 5,
-        Subject: 'meeting5',
-        Location: 'erc',
-        StartTime: '2023-04-14T06:30:00.000Z',
-        EndTime: '2023-04-14T08:30:00.000Z',
-        CategoryColor: '#00bdae',
     },
 
 ];
