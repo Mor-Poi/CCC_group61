@@ -3,23 +3,23 @@ import { ChartsHeader, Pie as PieChart } from '../components';
 import { ChartComponent, SeriesCollectionDirective, SeriesDirective, Inject, Legend, Category, Tooltip, ColumnSeries, DataLabel } from '@syncfusion/ej2-react-charts';
 
 import { useStateContext } from '../contexts/ContextProvider';
-import sentiment from '../data/sentiment.json';
+// import sentiment from '../data/sentiment.json';
 
 const S1_1 = () => {
   const { currentMode } = useStateContext();
 
   const [barChartData, setBarChartData] = useState([]);
 
-  // const [sentiment, setSentiment] = useState([]);
+  const [sentiment, setSentiment] = useState([]);
 
 
 
-  // useEffect(() => {
-  //   fetch('/api/sentiment') 
-  //     .then(response => response.json())
-  //     .then(data => setSentiment(data))
-  //     .catch(error => console.error(error));
-  // }, []);
+  useEffect(() => {
+    fetch('/api/sentiment') 
+      .then(response => response.json())
+      .then(data => setSentiment(data))
+      .catch(error => console.error(error));
+  }, []);
 
 
 
