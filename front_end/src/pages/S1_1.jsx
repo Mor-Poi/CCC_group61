@@ -3,7 +3,7 @@ import { ChartsHeader, Pie as PieChart } from '../components';
 import { ChartComponent, SeriesCollectionDirective, SeriesDirective, Inject, Legend, Category, Tooltip, ColumnSeries, DataLabel } from '@syncfusion/ej2-react-charts';
 
 import { useStateContext } from '../contexts/ContextProvider';
-// import sentiment from '../data/sentiment.json';
+// import subjective from '../data/subjective.json';
 
 const S1_1 = () => {
   const { currentMode } = useStateContext();
@@ -11,6 +11,17 @@ const S1_1 = () => {
   const [barChartData, setBarChartData] = useState([]);
 
   const [sentiment, setSentiment] = useState([]);
+  
+  const [subjective, setSubjective] = useState([]);
+
+
+
+  useEffect(() => {
+    fetch('/api/subjective') 
+      .then(response => response.json())
+      .then(data => setSubjective(data))
+      .catch(error => console.error(error));
+  }, []);
 
 
 
@@ -20,6 +31,7 @@ const S1_1 = () => {
       .then(data => setSentiment(data))
       .catch(error => console.error(error));
   }, []);
+
 
 
 
@@ -61,10 +73,24 @@ const S1_1 = () => {
           </ChartComponent>
         </div>
       </div>
-      <ChartsHeader category="Pie chart" title="Emotional Percentages of the Top Five Most Common Emojis" />
+      <ChartsHeader category="Pie chart" title="Sentiment of the Top Five Most Common Emojis" />
       <div className="flex justify-between">
 
 {sentiment.map((item,index) => {
+  const chartId = `chart-pie-${index}`;
+  const emoji = JSON.parse(`"${item.emoji}"`); 
+  return  (<div style = { {flex: 1,width: '33.33%',padding: '0 10px',}} key={index}> 
+      
+  <PieChart id="chart-pie" id ={chartId} data={item.data}legendVisiblity height="full" />    <div style={{ textAlign: 'center', marginTop: '10px' }}>
+          <h3>{emoji}</h3>
+        </div> 
+ </div>);
+}
+)}</div>
+      <ChartsHeader category="Pie chart" title="Subjective of the Top Five Most Common Emojis" />
+      <div className="flex justify-between">
+
+{subjective.map((item,index) => {
   const chartId = `chart-pie-${index}`;
   const emoji = JSON.parse(`"${item.emoji}"`); 
   return  (<div style = { {flex: 1,width: '33.33%',padding: '0 10px',}} key={index}> 
