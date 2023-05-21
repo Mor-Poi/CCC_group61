@@ -83,7 +83,7 @@ export const themeColors = [{
     },
     {
         name: 'indigo-theme',
-        color: '#1E4DB7',
+        color: '#189399',
     },
     {
         color: '#FB9678',

@@ -32,7 +32,7 @@ const S3 = () => {
           primaryYAxis={areaPrimaryYAxis1}
           chartArea={{ border: { width: 0 } }}
           background={currentMode === 'Dark' ? '#33373E' : '#fff'}
-          legendSettings={{ background: 'white' }}
+          // legendSettings={{ background: 'white' }}
         >
           <Inject services={[SplineAreaSeries, Category, Legend]} />
           <SeriesCollectionDirective>
