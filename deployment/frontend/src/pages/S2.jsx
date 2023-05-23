@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { ChartsHeader } from '../components';
 import { ChartComponent, SeriesCollectionDirective, SeriesDirective, Inject, Legend, Category, Tooltip, ColumnSeries, DataLabel } from '@syncfusion/ej2-react-charts';
 import { useStateContext } from '../contexts/ContextProvider';
-// import barChartData from '../data/AFL.json'; 
+
 
 const S2 = () => {
   const { currentMode } = useStateContext();

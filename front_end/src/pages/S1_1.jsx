@@ -95,7 +95,7 @@ const S1_1 = () => {
   const emoji = JSON.parse(`"${item.emoji}"`); 
   return  (<div style = { {flex: 1,width: '33.33%',padding: '0 10px',}} key={index}> 
       
-  <PieChart id="chart-pie" id ={chartId} data={item.data}legendVisiblity height="full" />    <div style={{ textAlign: 'center', marginTop: '10px' }}>
+  <PieChart id="chart-pie" id ={chartId+5} data={item.data}legendVisiblity height="full" />    <div style={{ textAlign: 'center', marginTop: '10px' }}>
           <h3>{emoji}</h3>
         </div> 
  </div>);

@@ -40,3 +40,10 @@ def getSentiment(request):
         data = json.load(f)
     return JsonResponse(data,safe=False)
 
+def getSubjective(request):
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    json_file_path = os.path.join(dir_path, 'data/subjective.json')
+    with open(json_file_path) as f:
+        data = json.load(f)
+    return JsonResponse(data,safe=False)
+

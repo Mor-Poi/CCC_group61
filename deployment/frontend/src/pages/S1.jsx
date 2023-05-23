@@ -7,8 +7,9 @@ import { useStateContext } from '../contexts/ContextProvider';
 
 const S1 = () => {
   const [zoom, setZoom] = useState(5);
-  const [coordinates, setCoordinates] = useState([]); 
   const { currentMode } = useStateContext();
+  const [coordinates, setCoordinates] = useState([]); 
+
 
   useEffect(() => {
     fetch('/api/coordinates') 
@@ -20,10 +21,17 @@ const S1 = () => {
     <div className="m-4 md:m-10 mt-18 p-10 bg-white dark:bg-secondary-dark-bg rounded-3xl">
       <ChartsHeader category="Map" title="Distribution of the Four Most Frequently Used Emojis in Each State of Australia" />
       <Map className="map" center={coordinates[0] || [0,0]} zoom={zoom}>
-        <TileLayer
-          attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        />
+      {currentMode === 'Light' ? (
+          <TileLayer
+            attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          />
+        ) : (
+          <TileLayer
+            attribution='&amp;copy <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &amp; <a href="https://carto.com/attributions">CARTO</a>'
+            url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+          />
+        )}
         {coordinates.map((coordinate, index) => {
           const emoji = JSON.parse(`"${coordinate.emoji}"`); // Parse emoji string
           const customIcon = L.divIcon({

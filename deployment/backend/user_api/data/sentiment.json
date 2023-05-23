@@ -1,7 +1,6 @@
-[
-    { "emoji": "\\ud83d\\ude02", "data": [{ "x": "positive", "y": 35.6768100735 }, { "x": "neutral", "y": 51.888772298 }, { "x": "negative", "y": 12.4344176285 }] },
-    { "emoji": "\\ud83d\\udc4f", "data": [{ "x": "positive", "y": 46.6248037677 }, { "x": "neutral", "y": 51.4913657771 }, { "x": "negative", "y": 1.8838304553 }] },
-    { "emoji": "\\ud83d\\ude4f", "data": [{ "x": "positive", "y": 58.0065359477 }, { "x": "neutral", "y": 37.2549019608 }, { "x": "negative", "y": 4.7385620915 }] },
-    { "emoji": "\\ud83d\\udd25", "data": [{ "x": "positive", "y": 27.5491949911 }, { "x": "neutral", "y": 63.5062611807 }, { "x": "negative", "y": 8.9445438283 }] },
-    { "emoji": "\\ud83d\\ude0d", "data": [{ "x": "positive", "y": 55.7823129252 }, { "x": "neutral", "y": 42.6303854875 }, { "x": "negative", "y": 1.5873015873 }] }
+[{ "emoji": "\\ud83d\\ude02", "data": [{ "x": "positive", "y": 36 }, { "x": "neutral", "y": 52 }, { "x": "negative", "y": 12 }] },
+    { "emoji": "\\ud83d\\ude4f", "data": [{ "x": "positive", "y": 57 }, { "x": "neutral", "y": 39 }, { "x": "negative", "y": 4 }] },
+    { "emoji": "\\ud83d\\udc4f", "data": [{ "x": "positive", "y": 46 }, { "x": "neutral", "y": 50 }, { "x": "negative", "y": 4 }] },
+    { "emoji": "\\ud83d\\udd25", "data": [{ "x": "positive", "y": 27 }, { "x": "neutral", "y": 65 }, { "x": "negative", "y": 8 }] },
+    { "emoji": "\\ud83d\\udc4d", "data": [{ "x": "positive", "y": 49 }, { "x": "neutral", "y": 445 }, { "x": "negative", "y": 6 }] }
 ]

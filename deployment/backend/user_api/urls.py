@@ -6,6 +6,7 @@ urlpatterns = [
     path('AFL', views.getAFL, name='AFL'),
     path('barChartData', views.getBarChartData, name='barChartData'),
     path('sentiment', views.getSentiment, name='sentiment'),
+    path('subjective', views.getSubjective, name='subjective'),
     
 	
 ]
