@@ -1,0 +1,4 @@
+---
+src_file: /Users/xuyuanbo/Documents/GitHub/CCC_group61/deployment.zip
+dest_dir: /home/ubuntu/
+dest_file: "{{ dest_dir }}/deployment.zip"

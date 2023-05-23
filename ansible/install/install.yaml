@@ -1,6 +1,4 @@
-- hosts: Demo
-  vars_files:
-    - host_vars/wordpress.yaml
+- hosts: Dev
   gather_facts: false
   vars:
     - ansible_user: ubuntu

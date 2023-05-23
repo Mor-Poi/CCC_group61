@@ -1,0 +1,23 @@
+---
+- name: Ensure destination directory exists
+  file:
+    path: "{{ dest_dir }}"
+    state: directory
+
+- name: Copy zip file to remote machine
+  copy:
+    src: "{{ src_file }}"
+    dest: "{{ dest_file }}"
+    remote_src: no
+
+- name: Unzip the copied file on remote machine
+  unarchive:
+    src: "{{ dest_file }}"
+    dest: "{{ dest_dir }}"
+    remote_src: yes
+
+- name: Run Docker Compose up on remote machine
+  command:
+    cmd: docker-compose up -d
+    chdir: "{{ dest_dir }}deployment/"
+
