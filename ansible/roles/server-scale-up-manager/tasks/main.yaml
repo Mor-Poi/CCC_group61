@@ -1,0 +1,4 @@
+---
+- name: scale
+  become: yes
+  command: docker service scale {{service}}={{workers}}

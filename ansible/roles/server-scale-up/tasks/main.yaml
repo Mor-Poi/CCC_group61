@@ -1,0 +1,5 @@
+---
+- name: Join docker swarm
+  become: yes
+  command: docker swarm join --token SWMTKN-1-43ps83tyw0iqwiwvfwhh3k1uknzfeu01f63pw9g5u87r24mkr7-a51hswkawuvklnlio5e0phv51 172.26.129.169:2377
+

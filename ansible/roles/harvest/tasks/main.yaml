@@ -1,0 +1,15 @@
+---
+- name: Install dependencies
+  become: yes
+  ansible.builtin.pip:
+    name: ['mastodon.py,nltk,couchdb']
+    state: latest
+- name: Download vader_lexicon
+  become: yes
+  command: python3 -c "import nltk; nltk.download('vader_lexicon')"
+
+- name: Copy directory to remote machine
+  copy:
+    src: "{{ src_file }}"
+    dest: "{{ dest_dir }}"
+

@@ -1,4 +1,7 @@
-- hosts: Dev
+- hosts: Mas
+  vars_files:
+    - host_vars/vars.yaml
+  become: yes
   gather_facts: false
   vars:
     - ansible_user: ubuntu
@@ -6,6 +9,4 @@
     - ansible_ssh_common_args: "-o StrictHostKeyChecking=no"
 
   roles:
-    - role: common
-    - role: volumes
-    - role: docker
+    - role: harvest

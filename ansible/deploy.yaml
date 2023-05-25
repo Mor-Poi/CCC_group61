@@ -1,6 +1,6 @@
 - hosts: Dev
   vars_files:
-    - host_vars/vars.yaml
+    - host_vars/deploy_vars.yaml
   become: yes
   gather_facts: false
   vars:
