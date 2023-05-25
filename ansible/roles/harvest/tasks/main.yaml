@@ -13,3 +13,8 @@
     src: "{{ src_file }}"
     dest: "{{ dest_dir }}"
 
+- name: start Harvesting
+  become: yes
+  ansible.builtin.shell: nohup python3 Python/stream.py > /dev/null 2>&1 &
+  async: 0
+  poll: 0

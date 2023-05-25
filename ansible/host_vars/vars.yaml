@@ -1,4 +1,3 @@
 ---
 src_file: //Users/xuyuanbo/Documents/GitHub/CCC_group61/Mastodon/Python
 dest_dir: /home/ubuntu/
-dest_file: "{{ dest_dir }}/deployment.zip"

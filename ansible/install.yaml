@@ -1,4 +1,4 @@
-- hosts: Mas
+- hosts: Demo
   gather_facts: false
   vars:
     - ansible_user: ubuntu
