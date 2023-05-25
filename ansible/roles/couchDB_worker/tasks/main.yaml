@@ -1,0 +1,13 @@
+---
+- name: Wait for 10 seconds
+  pause:
+    seconds: 10
+
+- name: Copy directory to remote machine
+  copy:
+    src: couchDB2.sh
+    dest: /home/ubuntu/
+
+- name: run couchDB2.sh
+  become: yes
+  command: sh couchDB2.sh

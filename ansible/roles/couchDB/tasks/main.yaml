@@ -1,0 +1,10 @@
+---
+- name: Copy directory to remote machine
+  copy:
+    src: couchDB.sh
+    dest: /home/ubuntu/
+
+- name: run couchDB.sh
+  become: yes
+  command: sh couchDB.sh
+
